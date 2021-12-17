@@ -1,20 +1,20 @@
-* "Unfortunately, no one can be told what The Matrix Theme is. You’ll have to see it for yourself" —Morpheus
+* "Unfortunately, no one can be told what The Matrix Theme is. You’ll have to see it for yourself" — Morpheus
 
-** Why?
-
-I was looking for a monochrome green-on-black theme for the darker hours, because for some reason it helps me to focus.
+I was looking for a monochrome green-on-black theme for the darker hours, because for some reason it helps me focus.
 
 ** Colors
 
 There are only three base colors used:
 
-- *Matrix Green* Coming in different shades and liminositiy to provide syntax highlighting
+- *Matrix Green* Coming in different shades and luminositiy to provide syntax highlighting
 - *Blue Pill* for infos, hints, notifications and diff-added
 - *Red Pill* for warnings, errors and diff-removed
 
 ** Typography
 
-The theme makes use of italic, as well as bold and light weights (if provided by your font). My favorite monospaced font right now is `Recursive'; `Iosevka' should work equally well. For best results, I recommend to configure Emacs' all main faces `default', `fixed-pitch', `fixed-pitch-serif' and `variable-pitch' (optional).
+The theme makes use of italic, as well as bold and light weights (if provided by your font). My favorite monospaced font right now is `Recursive'; `Iosevka' should work equally well.
+
+For best results, I recommend to configure Emacs' main faces `default' and `fixed-pitch-serif'. The latter is used to better distinguish strings, comments and documentation.
 
 #+caption: Example font config
 #+begin_src emacs-lisp
@@ -45,7 +45,6 @@ The theme makes use of italic, as well as bold and light weights (if provided by
                       :width  'normal
                       :height 128))
 
-;; Modeline
 (defun my-modeline ()
   "Custom modeline styling."
   (set-face-attribute 'mode-line nil
@@ -61,7 +60,6 @@ The theme makes use of italic, as well as bold and light weights (if provided by
                       :width  'normal
                       :height 98))
 #+end_src
-
 
 ** Themed Packages/Modes
 
@@ -95,6 +93,11 @@ Non-exhaustive list of explicitly themed packages:
 - beancount
 - w3m
 
+** Current Status
+
+- [X] *Graphical Emacs* Works as expected
+- [ ] *Terminal emulator* Usable, but colored backgrounds (strings, errors, etc.) don't look pretty yet
+- [ ] *TTY* There's no workaround yet to make colored backgrounds (strings, errors, etc.) readable
 
 ** Manual Installation
 
