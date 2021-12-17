@@ -4,38 +4,6 @@
 
 I was looking for a monochrome green-on-black theme for the darker hours, because for some reason it helps me to focus.
 
-** Themed Packages/Modes
-
-Non-exhaustive list of explicitly themed packages:
-
-- org
-- smartparens
-- rainbow-delimiters (actually used to make the parens less visible)
-- paren-face
-- magit
-- company
-- flymake
-- flycheck
-- lsp-mode
-- eglot
-- csv-mode
-- css-mode
-- web-mode
-- slime
-- tuareg
-- merlin
-- merlin-eldoc
-- utop
-- selectrum
-- consult
-- helm
-- adoc-mode
-- highlight-indent-guides
-- notmuch
-- telega
-- beancount
-- w3m
-
 ** Colors
 
 There are only three base colors used:
@@ -94,20 +62,54 @@ The theme makes use of italic, as well as bold and light weights (if provided by
                       :height 98))
 #+end_src
 
+
+** Themed Packages/Modes
+
+Non-exhaustive list of explicitly themed packages:
+
+- org
+- smartparens
+- rainbow-delimiters (actually used to make the parens less visible)
+- paren-face
+- magit
+- company
+- flymake
+- flycheck
+- lsp-mode
+- eglot
+- csv-mode
+- css-mode
+- web-mode
+- slime
+- tuareg
+- merlin
+- merlin-eldoc
+- utop
+- selectrum
+- consult
+- helm
+- adoc-mode
+- highlight-indent-guides
+- notmuch
+- telega
+- beancount
+- w3m
+
+
 ** Manual Installation
 
-*1.* Create or change to your Emacs themes directory:
+*1.* Create or change to your Emacs themes directory if it doesn't exist yet:
 #+begin_src sh
   mkdir ~/.emacs.d/themes/
-  cd ~/.emacs.d/themes/
 #+end_src
 
-*2.* Then clone this repository:
+*2.* Then change into your Emacs themes directory and clone this repository:
 #+begin_src sh
+  cd ~/.emacs.d/themes/
   git clone https://github.com/monkeyjunglejuice/matrix-emacs-theme.git
 #+end_src
 
-*3.* Put this in your Emacs init file:
+*3.* Only if you had to create the themes directory in step 1, put this in your Emacs init file:
 #+caption: Example for Linux/Unix
 #+begin_src emacs-lisp
   (let ((basedir "~/.emacs.d/themes/"))
