@@ -21,7 +21,7 @@ There are only three base colors used:
 
 ** Typography
 
-The theme makes use of italic, as well as bold, and light weights (if provided by your font). My favorite monospaced font right now is `[[https://www.recursive.design/][Recursive]]'; `[[https://typeof.net/Iosevka/][Iosevka]]' should work equally well.
+The theme makes use of italic, as well as bold and light weights (if provided by your font). My favorite monospaced font right now is `[[https://www.recursive.design/][Recursive]]'; `[[https://typeof.net/Iosevka/][Iosevka]]' should work equally well.
 
 For best results, I recommend to configure Emacs' main faces `default' and `fixed-pitch-serif'. The latter is used to better distinguish strings, comments and documentation. Here is an example:
 
