@@ -260,6 +260,7 @@
    `(magit-branch-remote ((t (:foreground ,color-middle :weight bold))))
    `(magit-tag ((t (:foreground ,color-dark :background nil :inherit italic))))
    `(magit-hash ((t (:foreground ,color-bright))))
+   `(magit-process-ok ((t (:inherit success))))
    `(magit-section-title ((t (:foreground ,color-fg :background nil))))
    `(magit-section-heading ((t (:background nil :foreground ,color-fg))))
    `(magit-section-highlight ((t (:background nil))))
