@@ -6,7 +6,7 @@ I was looking for a monochrome green-on-black theme for the darker hours, becaus
 
 *** Tuareg (OCaml)
 [[file:files/screenshot-tuareg.png]]
-*** Dired
+*** Dired + Selectrum + Marginalia
 [[file:files/screenshot-dired.png]]
 *** Magit
 [[file:files/screenshot-magit.png]]
