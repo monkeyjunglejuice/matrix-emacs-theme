@@ -8,6 +8,8 @@ I was looking for a monochrome green-on-black theme for the darker hours, becaus
 [[file:files/screenshot-tuareg.png]]
 *** Dired
 [[file:files/screenshot-dired.png]]
+*** Magit
+[[file:files/screenshot-magit.png]]
 
 [[file:files/screenshot-full.png][Full screenshot]]
 
