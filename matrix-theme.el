@@ -1,9 +1,9 @@
-;;; matrix-theme.el --- Unfortunately, no one can be told what The Matrix Theme is. You’ll have to see it for yourself.  -*- lexical-binding: t; -*-
+;;; matrix-theme.el --- Unfortunately, no one can be told what The Matrix Theme is. You’ll have to see it for yourself  -*- lexical-binding: t; -*-
 
-;; Copyright (C) 2021 Dan Dee
+;; copyright (c) 2021 dan dee
 
-;; Author: Dan Dee <monkeyjunglejuice@pm.me>
-;; URL: https://github.com/monkeyjunglejuice/matrix-theme-emacs
+;; author: dan dee <monkeyjunglejuice@pm.me>
+;; url: https://github.com/monkeyjunglejuice/matrix-theme-emacs
 ;; Version: 0.1.0
 ;; Package-Requires: ((emacs "26.1"))
 ;; Keywords: faces, themes
@@ -442,9 +442,7 @@
 
    ;; W3m
    `(w3m-anchor ((t (:inherit link))))
-   `(w3m-current-anchor ((t (:inherit highlight))))
-
-   ))
+   `(w3m-current-anchor ((t (:inherit highlight))))))
 
 (provide-theme 'matrix)
 
