@@ -135,9 +135,9 @@
    `(completions-common-part ((t (:foreground ,color-bright))))
 
    ;; Diff
-   `(diff-added ((t (:foreground ,color-blue))))
-   `(diff-removed ((t (:foreground ,color-red))))
-   `(diff-context ((t (:inherit shadow))))
+   `(diff-added ((t (:foreground ,color-blue :background ,color-bg-blue))))
+   `(diff-removed ((t (:foreground ,color-red :background ,color-bg-red))))
+   `(diff-context ((t (:inherit shadow :background ,color-bg-alt))))
    `(diff-file-header ((t (:bold t :background ,color-hl :weight bold))))
    `(diff-header ((t (:background ,color-hl :foreground ,color-fg))))
 
@@ -267,10 +267,10 @@
    `(magit-item-highlight ((t (:foreground ,color-fg :background ,color-bright))))
    `(magit-log-author ((t (:foreground ,color-dark))))
    `(magit-diff-added ((t (:inherit diff-added))))
-   `(magit-diffstat-added ((t (:inherit diff-added))))
+   `(magit-diffstat-added ((t (:foreground ,color-blue))))
    `(magit-diff-added-highlight ((t (:inherit magit-diff-added))))
    `(magit-diff-removed ((t (:inherit diff-removed))))
-   `(magit-diffstat-removed ((t (:inherit diff-removed))))
+   `(magit-diffstat-removed ((t (:foreground ,color-red))))
    `(magit-diff-removed-highlight ((t (:inherit magit-diff-removed))))
    `(magit-diff-context ((t (:inherit diff-context))))
    `(magit-diff-context-highlight ((t (:inherit magit-diff-context))))
