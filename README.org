@@ -1,4 +1,4 @@
-* "Unfortunately, no one can be told what The Matrix Theme is. You’ll have to see it for yourself" — Morpheus
+* "Unfortunately, no one can be told what The Matrix Theme is. You’ll have to see it for yourself" —Morpheus
 
 I was looking for a monochrome green-on-black theme for the darker hours, because for some reason it helps me focus.
 
@@ -12,53 +12,58 @@ There are only three base colors used:
 
 ** Typography
 
-The theme makes use of italic, as well as bold and light weights (if provided by your font). My favorite monospaced font right now is `Recursive'; `Iosevka' should work equally well.
+The theme makes use of italic, as well as bold, and light weights (if provided by your font). My favorite monospaced font right now is `[[https://www.recursive.design/][Recursive]]'; `[[https://typeof.net/Iosevka/][Iosevka]]' should work equally well.
 
-For best results, I recommend to configure Emacs' main faces `default' and `fixed-pitch-serif'. The latter is used to better distinguish strings, comments and documentation.
+For best results, I recommend to configure Emacs' main faces `default' and `fixed-pitch-serif'. The latter is used to better distinguish strings, comments and documentation. Here is an example:
 
 #+caption: Example font config
 #+begin_src emacs-lisp
-(defun my-fonts ()
-  "Set the default fonts."
-  (set-face-attribute 'default nil
-                      :family "Rec Mono Linear" ; default: "Monospace"
-                      :slant  'normal
-                      :weight 'normal
-                      :width  'normal
-                      :height 128)
-  (set-face-attribute 'fixed-pitch nil
-                      :family "Rec Mono Linear" ; default: "Monospace"
-                      :slant  'normal
-                      :weight 'normal
-                      :width  'normal
-                      :height 128)
-  (set-face-attribute 'fixed-pitch-serif nil
-                      :family "Rec Mono Casual" ; default: "Monospace"
-                      :slant  'normal
-                      :weight 'normal
-                      :width  'normal
-                      :height 128)
-  (set-face-attribute 'variable-pitch nil
-                      :family "Recursive Sans Casual Static" ; default: "Serif"
-                      :slant  'normal
-                      :weight 'normal
-                      :width  'normal
-                      :height 128))
+  (defun my-fonts ()
+    "Set the default fonts."
+    (set-face-attribute 'default nil
+                        :family "Rec Mono Linear" ; default: "Monospace"
+                        :slant  'normal
+                        :weight 'normal
+                        :width  'normal
+                        :height 128)
+    (set-face-attribute 'fixed-pitch nil
+                        :family "Rec Mono Linear" ; default: "Monospace"
+                        :slant  'normal
+                        :weight 'normal
+                        :width  'normal
+                        :height 128)
+    (set-face-attribute 'fixed-pitch-serif nil
+                        :family "Rec Mono Casual" ; default: "Monospace"
+                        :slant  'normal
+                        :weight 'normal
+                        :width  'normal
+                        :height 128)
+    (set-face-attribute 'variable-pitch nil
+                        :family "Recursive Sans Casual Static" ; default: "Serif"
+                        :slant  'normal
+                        :weight 'normal
+                        :width  'normal
+                        :height 128))
 
-(defun my-modeline ()
-  "Custom modeline styling."
-  (set-face-attribute 'mode-line nil
-                      :family "Rec Mono Linear"
-                      :slant  'normal
-                      :weight 'normal
-                      :width  'normal
-                      :height 98)
-  (set-face-attribute 'mode-line-inactive nil
-                      :family "Rec Mono Linear"
-                      :slant  'normal
-                      :weight 'normal
-                      :width  'normal
-                      :height 98))
+  (my-fonts) ; Apply the function
+
+
+  (defun my-modeline ()
+    "Custom modeline styling."
+    (set-face-attribute 'mode-line nil
+                        :family "Rec Mono Linear"
+                        :slant  'normal
+                        :weight 'normal
+                        :width  'normal
+                        :height 98)
+    (set-face-attribute 'mode-line-inactive nil
+                        :family "Rec Mono Linear"
+                        :slant  'normal
+                        :weight 'normal
+                        :width  'normal
+                        :height 98))
+
+  (my-modeline) ; Apply the function
 #+end_src
 
 ** Themed Packages/Modes
