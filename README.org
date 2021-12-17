@@ -3,13 +3,12 @@
 I was looking for a monochrome green-on-black theme for the darker hours, because for some reason it helps me focus.
 
 ** Screenshots
-
-[[file:files/screenshot-full.png][Full screenshot]]
-[[file:files/screenshot-tuareg.png][Tuareg (OCaml)]]
-[[file:files/screenshot-magit.png][Magit]]
-[[file:files/screenshot-org.png][Org-mode]]
-[[file:files/screenshot-html.png][HTML]]
-[[file:files/screenshot-dired.png][Dired]]
+- [[file:files/screenshot-full.png][Full screenshot]]
+- [[file:files/screenshot-tuareg.png][Tuareg (OCaml)]]
+- [[file:files/screenshot-magit.png][Magit]]
+- [[file:files/screenshot-org.png][Org-mode]]
+- [[file:files/screenshot-html.png][HTML]]
+- [[file:files/screenshot-dired.png][Dired]]
 
 ** Colors
 
