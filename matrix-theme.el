@@ -21,7 +21,7 @@
 ;; the blue "pill" colors.
 
 ;;; Credits:
-;;The "Matrix" theme is based on my `giorgio-theme' which may be released
+;; The "Matrix" theme is based on my `giorgio-theme' which may be released
 ;; after this one.
 
 ;;; Code:
