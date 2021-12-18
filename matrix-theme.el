@@ -37,7 +37,7 @@
        (color-bright  "#00ee76")
        (color-middle  "#00cd66")
        (color-fg      "#00a250")
-       (color-dark    "#006633")
+       (color-dark    "#007338")
        (color-darker  "#004020")
        (color-red     "#d92000")
        (color-blue    "#006bf2"))
