@@ -329,7 +329,7 @@
    ;; Web-mode
    `(web-mode-html-tag-bracket-face ((t (:inherit shadow))))
    `(web-mode-html-tag-face ((t (:weight bold :inherit shadow))))
-   `(web-mode-html-attr-name-face ((t (:inherit shadow :slant italic))))
+   `(web-mode-html-attr-name-face ((t (:inherit shadow))))
    `(web-mode-css-selector-face ((t (:inherit css-selector))))
    `(web-mode-css-property-name-face ((t (:inherit css-property))))
    `(web-mode-doctype-face ((t (:inherit shadow))))
