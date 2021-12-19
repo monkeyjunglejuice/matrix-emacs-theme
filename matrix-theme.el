@@ -85,7 +85,7 @@
    `(highlight ((t (:foreground ,color-hl :weight bold :underline t))))
    `(hl-line ((t (:underline (:color ,color-dark) :extend t))))
    `(widget-field ((t (:foreground ,color-bright :background ,color-bg-alt))))
-   `(trailing-whitespace ((t (:background ,color-bg-blue))))
+   `(trailing-whitespace ((t (:inherit whitespace-trailing))))
    `(escape-glyph ((t (:inverse-video t))))
 
    ;; ANSI colors
@@ -224,12 +224,12 @@
    `(compilation-info ((t (:foreground ,color-blue))))
 
    ;; Whitespace
-   `(whitespace-trailing ((t (:background ,color-bg-red))))
-   `(whitespace-line ((t (:background ,color-bg-blue))))
+   `(whitespace-trailing ((t (:background ,color-bg-blue))))
+   `(whitespace-line ((t (:inherit whitespace-trailing))))
    `(whitespace-space (( t(:foreground ,color-darker))))
    `(whitespace-newline ((t (:foreground ,color-darker))))
 
-   ;; Smart parens
+   ;; Smartparens
    `(sp-pair-overlay-face ((t (:foreground ,color-bright :background ,color-bg-alt))))
 
    ;; Rainbow delimiters
