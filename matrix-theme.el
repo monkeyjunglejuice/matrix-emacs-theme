@@ -147,7 +147,7 @@
 
    ;; Customization
    `(custom-group-tag ((t (:inherit bold))))
-   `(custom-variable-tag ((t (:foreground ,color-middle :weight bold))))
+   `(custom-variable-tag ((t (:foreground ,color-fg :weight bold))))
    `(custom-variable-obsolete ((t (:foreground ,color-dark :weight bold))))
    `(custom-documentation ((t (:inherit font-lock-doc-face))))
    `(custom-visibility ((t (:inherit custom-documentation :underline t))))
