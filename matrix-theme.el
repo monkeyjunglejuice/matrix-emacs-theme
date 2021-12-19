@@ -52,7 +52,7 @@
    `(secondary-selection ((t (:background ,color-bg-alt))))
    `(mode-line ((t (:foreground ,color-fg :box t))))
    `(mode-line-buffer-id ((t (:foreground ,color-middle :weight bold))))
-   `(mode-line-inactive ((t (:background ,color-bg :foreground ,color-dark :box t))))
+   `(mode-line-inactive ((t (:foreground ,color-dark :box t))))
    `(fringe ((t (:background ,color-bg))))
    `(vertical-border ((t (:foreground ,color-fg :background nil))))
    `(minibuffer-prompt ((t (:inherit comint-highlight-prompt :weight normal :slant italic))))
