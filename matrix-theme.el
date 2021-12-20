@@ -228,7 +228,8 @@
    `(whitespace-trailing ((t (:background ,color-bg-red))))
    `(whitespace-line ((t (:inherit whitespace-trailing))))
    `(whitespace-space (( t(:foreground ,color-darker))))
-   `(whitespace-newline ((t (:foreground ,color-darker))))
+   `(whitespace-newline ((t (:inherit whitespace-space))))
+   `(whitespace-empty ((t (:inherit whitespace-line))))
 
    ;; Smartparens
    `(sp-pair-overlay-face ((t (:foreground ,color-bright :background ,color-bg-alt))))
