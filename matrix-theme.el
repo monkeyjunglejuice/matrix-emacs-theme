@@ -225,7 +225,7 @@
    `(compilation-info ((t (:foreground ,color-blue))))
 
    ;; Whitespace
-   `(whitespace-trailing ((t (:background ,color-bg-blue))))
+   `(whitespace-trailing ((t (:background ,color-bg-red))))
    `(whitespace-line ((t (:inherit whitespace-trailing))))
    `(whitespace-space (( t(:foreground ,color-darker))))
    `(whitespace-newline ((t (:foreground ,color-darker))))
