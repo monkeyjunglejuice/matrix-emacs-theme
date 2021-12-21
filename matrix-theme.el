@@ -133,7 +133,8 @@
    `(comint-highlight-input ((t (:inherit default))))
 
    ;; Completions
-   `(completions-common-part ((t (:foreground ,color-bright))))
+   `(completions-common-part ((t (:foreground ,color-middle))))
+   `(icomplete-first-match ((t (:foreground ,color-hl :weight bold))))
 
    ;; Diff
    `(diff-added ((t (:foreground ,color-blue :background ,color-bg-blue))))
