@@ -157,6 +157,7 @@
    `(custom-button-unraised ((t (:inherit button))))
 
    ;; Info
+   `(info-node ((t (:foreground ,color-bright :weight bold :slant italic))))
    `(info-menu-star ((t (:foreground ,color-bright))))
 
    ;; Message
