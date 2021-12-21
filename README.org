@@ -107,15 +107,15 @@ Non-exhaustive list of explicitly themed packages:
 - beancount
 - w3m
 
-** Current Status
+** Installation
 
-- [X] *Graphical Emacs* Works as expected
-- [ ] *Terminal emulator* Usable, but colored backgrounds (strings, errors, etc.) don't look pretty yet
-- [ ] *TTY* There's no workaround yet to make colored backgrounds (strings, errors, etc.) readable
+*** Package manager
 
-** Manual Installation
+- not on [[https://melpa.org][Melpa]] yet
 
-*1.* Create or change to your Emacs themes directory if it doesn't exist yet:
+*** Manual Installation
+
+*1.* Create your Emacs themes directory if it does not yet exist:
 #+begin_src sh
   mkdir ~/.emacs.d/themes/
 #+end_src
@@ -140,10 +140,15 @@ Non-exhaustive list of explicitly themed packages:
 
 *4.* (Re)start Emacs. You can now disable your current Emacs theme `M-x disable-theme ... RET' and then `M-x load-theme RET matrix RET'
 
+** Current Status
+
+- [X] *Graphical Emacs* Works as expected
+- [ ] *Terminal emulator* Usable, but colored backgrounds (strings, errors, etc.) don't look pretty yet
+- [ ] *TTY* There's no workaround yet to make colored backgrounds (strings, errors, etc.) readable
+
 ** Tested with:
 
 - [X] Emacs 27.1 on Ubuntu 21.10
-- [X] Emacs 27.1 on Ubuntu 20.04 LTS
 - [ ] Emacs 26.1 on Debian 10.9.0
 - [ ] Emacs 27 on Windows 10
 - [ ] Emacs 26 on Windows 10
