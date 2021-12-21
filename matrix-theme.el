@@ -326,7 +326,7 @@
    `(csv-separator-face ((t (:foreground ,color-middle))))
 
    ;; CSS
-   `(css-selector ((t (:inherit font-lock-function-name-face))))
+   `(css-selector ((t (:weight bold))))
    `(css-property ((t (:inherit font-lock-builtin-face))))
 
    ;; Web-mode
