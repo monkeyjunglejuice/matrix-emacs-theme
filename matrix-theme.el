@@ -144,7 +144,7 @@
    `(diff-header ((t (:background ,color-hl :foreground ,color-fg))))
 
    ;; Package manager
-   `(package-description ((t (:inherit font-lock-doc-face))))
+   `(package-description ((t (:slant italic :inherit fixed-pitch-serif))))
 
    ;; Customization
    `(custom-group-tag ((t (:inherit bold))))
