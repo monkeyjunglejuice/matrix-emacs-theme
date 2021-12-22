@@ -1,32 +1,33 @@
-;;; matrix-theme.el --- \"Unfortunately, no one can be told what The Matrix Theme is. You’ll have to see it for yourself\" –Morpheus  -*- lexical-binding: t; -*-
+;;; matrix-theme.el --- \"Unfortunately, no one can be told what The Matrix Theme is. You'll have to see it for yourself\" --Morpheus  -*- lexical-binding: t; -*-
 
-;; copyright (c) 2021 dan dee
+;; Copyright (C) 2021 Dan Dee
 
-;; author: dan dee <monkeyjunglejuice@pm.me>
-;; url: https://github.com/monkeyjunglejuice/matrix-theme-emacs
+;; Author: Dan Dee <monkeyjunglejuice@pm.me>
+;; URL: https://github.com/monkeyjunglejuice/matrix-theme-emacs
 ;; Version: 0.1.0
 ;; Package-Requires: ((emacs "26.1"))
 ;; Keywords: faces, themes
+
+;; This file is not part of GNU Emacs.
 
 ;; This program is free software. It comes without any warranty,
 ;; to the extent permitted by applicable law. You can redistribute it
 ;; and/or modify it under the terms of the MIT License.
 
 ;;; Commentary:
-;; "Matrix" is a green minimalistic dark theme for Emacs, inspired by the Movie.
-;; I wanted an almost monochrome green-on-black theme for the darker hours
-;; because for some reason it helps me focus on the code.
-;; There's only one green tone used, which varies in brightness and luminosity.
-;; Additional clues are provided only where neccessary by the red "pill" and
-;; the blue "pill" colors.
+;; "Matrix" is a green minimalistic dark theme for Emacs, inspired by
+;; "The Matrix" Movies. I made this one because I was looking for an almost
+;; monochrome green-on-black theme, because for some reason it helps me focus.
+;; I've used only one green color which varies in brightness and luminosity.
+;; Additional clues are provided by the red "pill" and the blue "pill" colors.
 
 ;;; Credits:
-;; The "Matrix" theme is based on my `giorgio-theme' which may be released
+;; `matrix-theme' is based on my `giorgio-theme' which may be released
 ;; after this one.
 
 ;;; Code:
 
-(deftheme matrix "Unfortunately, no one can be told what the Matrix Theme is. You’ll have to see it for yourself.")
+(deftheme matrix "Unfortunately, no one can be told what the Matrix Theme is. You'll have to see it for yourself.")
 
 ;; Colors
 (let* ((color-bg      "#000000")
