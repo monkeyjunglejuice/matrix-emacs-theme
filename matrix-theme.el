@@ -1,4 +1,4 @@
-;;; matrix-theme.el --- \"Unfortunately, no one can be told what The Matrix Theme is. You'll have to see it for yourself\" --Morpheus  -*- lexical-binding: t; -*-
+;;; matrix-theme.el --- "\"Unfortunately, no one can be told what the Matrix Theme is. You'll have to see it for yourself.\" --Morpheus"  -*- lexical-binding: t; -*-
 
 ;; Copyright (C) 2021 Dan Dee
 
