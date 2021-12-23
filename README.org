@@ -1,6 +1,6 @@
-* "Unfortunately, no one can be told what The Matrix Theme is. You’ll have to see it for yourself" —Morpheus
+* "Unfortunately, no one can be told what the Matrix Theme is. You’ll have to see it for yourself" —Morpheus
 
-I was looking for a monochrome green-on-black theme for the darker hours, because for some reason it helps me focus.
+I was looking for an almost monochrome green-on-black theme for the darker surroundings, because it helps me to focus, for some reason.
 
 ** Screenshots
 
@@ -15,15 +15,15 @@ I was looking for a monochrome green-on-black theme for the darker hours, becaus
 
 There are only three base colors used:
 
-- *Matrix Green* Coming in different shades and luminositiy to provide syntax highlighting
-- *Blue Pill* for infos, hints, notifications and diff-added
-- *Red Pill* for warnings, errors and diff-removed
+- *Matrix Green*: coming in different shades and luminositiy for syntax highlighting
+- *Blue*: for infos, hints, notifications and diff-added
+- *Red*: for warnings, errors and diff-removed
 
 ** Typography
 
 The theme makes use of italic, as well as bold and light weights (if provided by your font). My favorite monospaced font right now is `[[https://www.recursive.design/][Recursive]]'; `[[https://typeof.net/Iosevka/][Iosevka]]' should work equally well.
 
-For best results, I recommend to configure Emacs' main faces `default' and `fixed-pitch-serif'. The latter is used to better distinguish strings, comments and documentation. Here is an example:
+For best results, I recommend to configure Emacs' main faces `default' and `fixed-pitch-serif'. The latter is used to better distinguish strings, comments and documentation. Just for your inspiration (optional):
 
 #+caption: Example font config
 #+begin_src emacs-lisp
@@ -109,9 +109,9 @@ Non-exhaustive list of explicitly themed packages:
 
 ** Installation
 
-*** Package manager
+*** Emacs package manager
 
-- not on [[https://melpa.org][Melpa]] yet
+- Not on [[https://melpa.org][Melpa]] yet as of now, but probably within the next couple of days.
 
 *** Manual Installation
 
@@ -126,21 +126,20 @@ Non-exhaustive list of explicitly themed packages:
   git clone https://github.com/monkeyjunglejuice/matrix-emacs-theme.git
 #+end_src
 
-*3.* Only if you had to create the themes directory in step 1, put this in your Emacs init file:
-#+caption: Example for Linux/Unix
+*3.* Only if you had to create the themes directory in step 1, put this in your Emacs init file (example for Linux/Unix):
 #+begin_src emacs-lisp
   (let ((basedir "~/.emacs.d/themes/"))
     (dolist (f (directory-files basedir))
       (if (and (not (or (equal f ".") (equal f "..")))
                (file-directory-p (concat basedir f)))
           (add-to-list 'custom-theme-load-path (concat basedir f)))))
-
-  ;; (load-theme 'matrix t) ; uncomment this to load the theme immediately on startup
 #+end_src
 
 *4.* (Re)start Emacs. You can now disable your current Emacs theme `M-x disable-theme ... RET' and then `M-x load-theme RET matrix RET'
 
 ** Current Status
+
+I'm using this theme on a daily basis for writing OCaml, Lisp, Org, HTML and CSS. So I'll improve it continiously. I'll also would like to make it work for Terminal and TTY.
 
 - [X] *Graphical Emacs* Works as expected
 - [ ] *Terminal emulator* Usable, but colored backgrounds (strings, errors, etc.) don't look pretty yet
@@ -157,5 +156,4 @@ Non-exhaustive list of explicitly themed packages:
 
 ** Contribute
 
-If you have issues with the theme or something looks odd, please send a bug report.
-You are welcome to add support for further packages/modes.
+If you have issues with the theme or something looks odd, please send a bug report or pull request if you like. You are welcome to add support for further packages/modes.
