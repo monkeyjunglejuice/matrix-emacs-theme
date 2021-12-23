@@ -19,8 +19,7 @@
 ;; the Movie(s). I made this almost monochrome green-on-black theme,
 ;; because it helps me focus. Syntax highlighting is implemented by using
 ;; different font styles and a green base color which varies only in
-;; brightness and luminosity, with additional clues by the "red pill"
-;; and the "blue pill" colors.
+;; brightness and luminosity, with additional clues in red and blue.
 
 ;;; Credits:
 ;; `matrix-theme' is based on my `giorgio-theme' which may be released
