@@ -1,4 +1,3 @@
 (matrix-theme
  :fetcher github
- :repo "monkeyjunglejuice/matrix-emacs-theme"
- :branch "main")
+ :repo "monkeyjunglejuice/matrix-emacs-theme")
