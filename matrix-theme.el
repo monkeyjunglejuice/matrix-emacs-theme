@@ -15,11 +15,12 @@
 ;; and/or modify it under the terms of the MIT License.
 
 ;;; Commentary:
-;; "Matrix" is a green minimalistic dark theme for Emacs, inspired by
-;; "The Matrix" Movies. I made this one because I was looking for an almost
-;; monochrome green-on-black theme, because for some reason it helps me focus.
-;; I've used only one green color which varies in brightness and luminosity.
-;; Additional clues are provided by the red "pill" and the blue "pill" colors.
+;; "Matrix" is a dark green-on-black theme for Emacs, inspired by
+;; the Movie(s). I made this almost monochrome green-on-black theme,
+;; because it helps me focus. Syntax highlighting is implemented by using
+;; different font styles and a green base color which varies only in
+;; brightness and luminosity, with additional clues by the "red pill"
+;; and the "blue pill" colors.
 
 ;;; Credits:
 ;; `matrix-theme' is based on my `giorgio-theme' which may be released
