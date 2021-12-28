@@ -56,7 +56,7 @@
    `(mode-line-inactive ((t (:foreground ,color-dark :box (:color ,color-dark)))))
    `(fringe ((t (:background ,color-bg))))
    `(vertical-border ((t (:foreground ,color-fg :background nil))))
-   `(minibuffer-prompt ((t (:inherit comint-highlight-prompt :weight normal :slant italic))))
+   `(minibuffer-prompt ((t (:inherit comint-highlight-prompt))))
 
    `(font-lock-face ((t (:foreground ,color-middle))))
    `(font-lock-builtin-face ((t (:foreground ,color-middle))))
