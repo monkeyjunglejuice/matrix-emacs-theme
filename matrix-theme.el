@@ -151,7 +151,7 @@
    `(custom-group-tag ((t (:inherit bold))))
    `(custom-variable-tag ((t (:foreground ,color-fg :weight bold))))
    `(custom-variable-obsolete ((t (:foreground ,color-dark :weight bold))))
-   `(custom-documentation ((t (:inherit font-lock-doc-face))))
+   `(custom-documentation ((t (:slant italic :inherit fixed-pitch-serif))))
    `(custom-visibility ((t (:inherit custom-documentation :underline t))))
    `(custom-state ((t (:foreground ,color-blue :inherit fixed-pitch-serif))))
    `(custom-button ((t (:inherit button))))
