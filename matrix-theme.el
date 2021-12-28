@@ -48,7 +48,7 @@
    `(cursor ((t (:background ,color-hl))))
    `(region ((t (:foreground ,color-middle :background ,color-darker))))
    `(success ((t (:foreground ,color-bright))))
-   `(warning ((t (:foreground ,color-red))))
+   `(warning ((t (:underline (:color ,color-red :style wave)))))
    `(error ((t (:foreground ,color-red :background ,color-bg-red))))
    `(secondary-selection ((t (:background ,color-bg-alt))))
    `(mode-line ((t (:foreground ,color-fg :box (:color ,color-fg)))))
@@ -313,9 +313,9 @@
    `(flycheck-error ((t (:inherit error))))
    `(flycheck-fringe-error ((t (:inherit flycheck-error))))
    `(flycheck-warning ((t (:inherit warning))))
-   `(flycheck-fringe-warning ((t (:inherit flycheck-warning))))
-   `(flycheck-info ((t (:foreground ,color-blue))))
-   `(flycheck-fringe-info ((t (:inherit flycheck-info))))
+   `(flycheck-fringe-warning ((t (:foreground ,color-red))))
+   `(flycheck-info ((t (:underline (:color ,color-blue :style wave)))))
+   `(flycheck-fringe-info ((t (:foreground ,color-blue))))
 
    ;; LSP
    `(lsp-headerline-breadcrumb-path-face ((t (:foreground ,color-dark))))
