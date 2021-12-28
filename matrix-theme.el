@@ -311,7 +311,9 @@
 
    ;; Flycheck
    `(flycheck-error ((t (:inherit error))))
+   `(flycheck-fringe-error ((t (:inherit flycheck-error))))
    `(flycheck-warning ((t (:inherit warning))))
+   `(flycheck-fringe-warning ((t (:inherit flycheck-warning))))
    `(flycheck-info ((t (:foreground ,color-blue))))
    `(flycheck-fringe-info ((t (:inherit flycheck-info))))
 
