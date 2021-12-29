@@ -5,11 +5,11 @@ I was looking for an almost monochrome green-on-black theme for the darker surro
 ** Screenshots
 
 *** Tuareg (OCaml)
-[[file:files/screenshot-tuareg.png]]
+[[file:screenshots/tuareg.png]]
 *** Dired + Selectrum + Marginalia
-[[file:files/screenshot-dired.png]]
+[[file:screenshots/dired.png]]
 *** Magit
-[[file:files/screenshot-magit.png]]
+[[file:screenshots/magit.png]]
 
 ** Colors
 
