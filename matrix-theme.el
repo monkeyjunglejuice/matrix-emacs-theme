@@ -10,16 +10,15 @@
 
 ;; This file is not part of GNU Emacs.
 
-;; This program is free software. It comes without any warranty,
-;; to the extent permitted by applicable law. You can redistribute it
-;; and/or modify it under the terms of the MIT License.
+;; SPDX-License-Identifier: MIT
 
 ;;; Commentary:
-;; "Matrix" is a dark green-on-black theme for Emacs, inspired by
-;; the Movie(s). I made this almost monochrome green-on-black theme,
-;; because it helps me focus. Syntax highlighting is implemented by using
-;; different font styles and a green base color which varies only in
-;; brightness and luminosity, with additional clues in red and blue.
+;; "Unfortunately, no one can be told what the Matrix Theme is.
+;; You'll have to see it for yourself." --Morpheus
+;; I've made this almost monochrome green-on-black theme, because
+;; it helps me focus. Syntax highlighting is implemented by different
+;; font styles and a green base color which varies only in brightness
+;; and luminosity, with additional clues in red and blue.
 
 ;;; Credits:
 ;; `matrix-theme' is based on my `giorgio-theme' which may be released
