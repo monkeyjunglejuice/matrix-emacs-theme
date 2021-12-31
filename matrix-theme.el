@@ -1,4 +1,4 @@
-;;; matrix-theme.el --- "Unfortunately, no one can be told what the Matrix Theme is. You'll have to see it for yourself." --Morpheus  -*- lexical-binding: t; -*-
+;;; matrix-theme.el --- Green-on-black dark theme inspired by "The Matrix" movie  -*- lexical-binding: t; -*-
 
 ;; Copyright (C) 2021 Dan Dee
 
