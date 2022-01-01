@@ -348,7 +348,7 @@
    `(sldb-section-face ((t (:foreground ,color-dark :weight bold))))
 
    ;; Tuareg
-   `(tuareg-font-lock-interactive-output-face ((t (:foreground ,color-fg))))
+   `(tuareg-font-lock-interactive-output-face ((t (:foreground ,color-bright))))
    `(tuareg-font-lock-interactive-error-face ((t (:inherit error))))
    `(tuareg-font-lock-interactive-directive-face ((t (:foreground ,color-middle))))
    `(tuareg-font-lock-operator-face ((t (:foreground ,color-middle))))
