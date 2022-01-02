@@ -344,7 +344,7 @@
    `(slime-repl-output-mouseover-face ((t (:foreground ,color-bright :box nil))))
    `(slime-repl-input-face ((t (:inherit default))))
    `(slime-repl-prompt ((t (:inherit comint-highlight-prompt))))
-   `(sldb-restartable-frame-line-face ((t (:foreground ,color-middle))))
+   `(sldb-restartable-frame-line-face ((t (:inherit link))))
    `(sldb-section-face ((t (:foreground ,color-dark :weight bold))))
 
    ;; Tuareg
