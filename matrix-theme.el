@@ -41,7 +41,8 @@
        (color-red     "#d92000")
        (color-blue    "#006bf2"))
 
-  (custom-theme-set-faces 'matrix
+  (custom-theme-set-faces
+   'matrix
    `(default ((t (:background ,color-bg :foreground ,color-fg))))
    `(cursor ((t (:background ,color-hl))))
    `(region ((t (:foreground ,color-middle :background ,color-darker))))
