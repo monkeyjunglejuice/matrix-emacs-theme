@@ -1,4 +1,4 @@
-* "Unfortunately, no one can be told what the Matrix Theme is. You’ll have to see it for yourself" —Morpheus
+* "Unfortunately, no one can be told what The Matrix Theme is. You’ll have to see it for yourself" —Morpheus
 
 I was looking for an almost monochrome green-on-black theme for the darker surroundings, because it helps me to focus, for some reason.
 
@@ -135,7 +135,7 @@ Non-exhaustive list of explicitly themed packages:
           (add-to-list 'custom-theme-load-path (concat basedir f)))))
 #+end_src
 
-*4.* (Re)start Emacs. You can now disable your current Emacs theme `M-x disable-theme ... RET' and then `M-x load-theme RET matrix RET'
+*4.* (Re)start Emacs. You can now disable your current Emacs theme `M-x disable-theme ... RET' and then `M-x load-theme RET the-matrix RET'
 
 ** Current Status
 

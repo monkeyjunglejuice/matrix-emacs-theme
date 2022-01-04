@@ -1,4 +1,4 @@
-;;; matrix-theme.el --- Green-on-black dark theme inspired by "The Matrix" movie  -*- lexical-binding: t; -*-
+;;; the-matrix-theme.el --- Green-on-black dark theme inspired by "The Matrix" movie  -*- lexical-binding: t; -*-
 
 ;; Copyright (C) 2021 Dan Dee
 
@@ -12,7 +12,7 @@
 ;; This file is not part of GNU Emacs.
 
 ;;; Commentary:
-;; "Unfortunately, no one can be told what the Matrix Theme is.
+;; "Unfortunately, no one can be told what The Matrix Theme is.
 ;; You'll have to see it for yourself." --Morpheus
 ;; I've made this almost monochrome green-on-black theme, because
 ;; it helps me focus. Syntax highlighting is implemented by different
@@ -20,12 +20,12 @@
 ;; and luminosity, with additional clues in red and blue.
 
 ;;; Credits:
-;; `matrix-theme' is based on my `giorgio-theme' which may be released
+;; `the-matrix-theme' is based on my `giorgio-theme' which may be released
 ;; after this one.
 
 ;;; Code:
 
-(deftheme matrix "Unfortunately, no one can be told what the Matrix Theme is. You'll have to see it for yourself. --Morpheus")
+(deftheme the-matrix "Unfortunately, no one can be told what The Matrix Theme is. You'll have to see it for yourself. --Morpheus")
 
 ;; Colors
 (let* ((color-bg      "#000000")
@@ -42,7 +42,7 @@
        (color-blue    "#006bf2"))
 
   (custom-theme-set-faces
-   'matrix
+   'the-matrix
    `(default ((t (:background ,color-bg :foreground ,color-fg))))
    `(cursor ((t (:background ,color-hl))))
    `(region ((t (:foreground ,color-middle :background ,color-darker))))
@@ -464,10 +464,10 @@
   (add-to-list 'custom-theme-load-path
                (file-name-as-directory (file-name-directory load-file-name))))
 
-(provide-theme 'matrix)
+(provide-theme 'the-matrix)
 
 ;; Local Variables:
 ;; no-byte-compile: t
 ;; End:
 
-;;; matrix-theme.el ends here
+;;; the-matrix-theme.el ends here
