@@ -85,7 +85,7 @@
    `(show-paren-mismatch ((t (:inherit error))))
    `(highlight ((t (:foreground ,color-hl :underline (:color ,color-hl)))))
    `(hl-line ((t (:underline (:color ,color-dark) :extend t))))
-   `(widget-field ((t (:foreground ,color-bright :background ,color-bg-alt :box (:line-width 1 :color ,color-bg)))))
+   `(widget-field ((t (:foreground ,color-bright :background ,color-bg-alt))))
    `(trailing-whitespace ((t (:background ,color-bg-red))))
    `(escape-glyph ((t (:inverse-video t))))
 
