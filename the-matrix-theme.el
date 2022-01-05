@@ -292,6 +292,11 @@
    `(git-gutter-fr:added ((t (:foreground ,color-dark))))
    `(git-gutter-fr:deleted ((t (:foreground ,color-dark))))
 
+   ;; Diff-hl
+   `(diff-hl-change ((t (:foreground ,color-dark))))
+   `(diff-hl-insert ((t (:foreground ,color-dark))))
+   `(diff-hl-delete ((t (:foreground ,color-dark))))
+
    ;; Company
    `(company-preview ((t (:foreground ,color-hl))))
    `(company-preview-common ((t (:foreground ,color-fg :background nil))))
