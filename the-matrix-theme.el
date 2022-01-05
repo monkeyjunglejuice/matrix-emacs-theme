@@ -465,15 +465,12 @@
    `(w3m-error ((t (:inherit error))))
    `(w3m-header-line-content ((t (:foreground ,color-middle :inherit header-line))))
    `(w3m-header-line-background ((t (:inherit header-line))))
-<<<<<<< HEAD
    `(w3m-header-line-title ((t (:inherit header-line))))
-=======
    `(w3m-header-line-title ((t (:inherit header-line :underline (:color ,color-fg)))))
    `(w3m-form ((t (:inherit widget-field))))
    `(w3m-form-button ((t (:inherit custom-button))))
    `(w3m-form-button-mouse ((t (:inherit custom-button-mouse))))
    `(w3m-form-button-pressed ((t (:inherit custom-button-pressed))))
->>>>>>> devel
 
    ;; Elfeed
    `(elfeed-search-date-face ((t (:foreground ,color-dark))))
