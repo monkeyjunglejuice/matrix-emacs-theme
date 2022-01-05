@@ -79,7 +79,7 @@
    `(link-visited ((t (:foreground ,color-fg :underline t))))
    `(button ((t (:foreground ,color-middle :background ,color-bg :underline t))))
    `(help-face-button ((t (:inherit button))))
-   `(header-line ((t (:foreground ,color-dark :slant italic :inherit fixed-pitch-serif :underline (:color ,color-dark)))))
+   `(header-line ((t (:foreground ,color-dark :background ,color-bg-alt :slant italic :inherit fixed-pitch-serif))))
    `(shadow ((t (:foreground ,color-dark))))
    `(show-paren-match ((t (:foreground ,color-hl :weight bold :underline t))))
    `(show-paren-mismatch ((t (:inherit error))))
