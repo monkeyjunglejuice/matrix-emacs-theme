@@ -106,6 +106,7 @@ Non-exhaustive list of explicitly themed packages:
 - telega
 - beancount
 - w3m
+- elfeed
 
 ** Installation
 
