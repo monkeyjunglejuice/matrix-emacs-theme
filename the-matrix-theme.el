@@ -457,7 +457,21 @@
 
    ;; W3m
    `(w3m-anchor ((t (:inherit link))))
-   `(w3m-current-anchor ((t (:inherit highlight))))))
+   `(w3m-current-anchor ((t (:inherit highlight))))
+
+   ;; Elfeed
+   `(elfeed-search-date-face ((t (:foreground ,color-dark))))
+   `(elfeed-search-title-face ((t (:inherit default))))
+   `(elfeed-search-unread-title-face ((t (:foreground ,color-middle))))
+   `(elfeed-search-feed-face ((t (:foreground ,color-dark))))
+   `(elfeed-search-tag-face ((t (:inherit default))))
+   `(elfeed-search-last-update-face ((t (:inherit font-lock-comment-face))))
+   `(elfeed-search-unread-count-face ((t (:weight bold))))
+   `(elfeed-search-filter-face ((t (:foreground ,color-bright))))
+   `(elfeed-log-debug-level-face ((t (:foreground ,color-blue))))
+   `(elfeed-log-error-level-face ((t (:inherit error))))
+   `(elfeed-log-info-level-face ((t (:foreground ,color-blue))))
+   `(elfeed-log-warn-level-face ((t (:inherit warning))))))
 
 ;;;###autoload
 (when load-file-name
