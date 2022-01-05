@@ -483,7 +483,19 @@
    `(elfeed-log-debug-level-face ((t (:foreground ,color-blue))))
    `(elfeed-log-error-level-face ((t (:inherit error))))
    `(elfeed-log-info-level-face ((t (:foreground ,color-blue))))
-   `(elfeed-log-warn-level-face ((t (:inherit warning))))))
+   `(elfeed-log-warn-level-face ((t (:inherit warning))))
+
+   ;; tab-line/tab-bar (Emacs 27+)
+   `(tab-line ((t (:background ,color-bg-alt :foreground ,color-fg))))
+   `(tab-line-tab ((t (:background ,color-bg :foreground ,color-fg))))
+   `(tab-line-tab-inactive ((t (:inherit tab-line-tab :background ,color-bg-alt :foreground ,color-fg))))
+   `(tab-line-tab-inactive-alternate ((t (:inherit tab-line-tab-inactive))))
+   `(tab-line-tab-current ((t (:background ,color-bg :foreground ,color-fg))))
+   `(tab-line-highlight ((t (:inherit tab-line-tab))))
+   `(tab-line-close-highlight ((t (:foreground color-hl))))
+   `(tab-bar ((t (:background ,color-bg-alt :foreground ,color-fg))))
+   `(tab-bar-tab ((t (:background ,color-bg :foreground ,color-fg))))
+   `(tab-bar-tab-inactive ((t (:inherit tab-line-tab :background ,color-bg-alt :foreground ,color-fg))))))
 
 ;;;###autoload
 (when load-file-name
