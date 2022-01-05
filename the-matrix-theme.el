@@ -77,7 +77,7 @@
 
    `(link ((t (:foreground ,color-middle :underline t))))
    `(link-visited ((t (:foreground ,color-fg :underline t))))
-   `(button ((t (:foreground ,color-middle :background ,color-bg :underline t))))
+   `(button ((t (:inherit link))))
    `(help-face-button ((t (:inherit button))))
    `(header-line ((t (:foreground ,color-dark :background ,color-bg-alt :slant italic :inherit fixed-pitch-serif))))
    `(shadow ((t (:foreground ,color-dark))))
@@ -85,7 +85,7 @@
    `(show-paren-mismatch ((t (:inherit error))))
    `(highlight ((t (:foreground ,color-hl :underline (:color ,color-hl)))))
    `(hl-line ((t (:underline (:color ,color-dark) :extend t))))
-   `(widget-field ((t (:foreground ,color-bright :background ,color-bg-alt))))
+   `(widget-field ((t (:foreground ,color-bright :background ,color-bg-alt :box (:line-width 1 :color ,color-bg)))))
    `(trailing-whitespace ((t (:background ,color-bg-red))))
    `(escape-glyph ((t (:inverse-video t))))
 
@@ -153,8 +153,11 @@
    `(custom-documentation ((t (:slant italic :inherit fixed-pitch-serif))))
    `(custom-visibility ((t (:inherit custom-documentation :underline t))))
    `(custom-state ((t (:foreground ,color-blue :inherit fixed-pitch-serif))))
-   `(custom-button ((t (:inherit button))))
-   `(custom-button-unraised ((t (:inherit button))))
+   `(custom-button ((t (:foreground ,color-bg :background ,color-fg :box (:line-width 1 :color ,color-fg)))))
+   `(custom-button-mouse ((t (:foreground ,color-bg :background ,color-hl :box (:line-width 1 :color ,color-hl)))))
+   `(custom-button-pressed ((t (:foreground ,color-hl :background ,color-darker :box (:line-width 1 :color ,color-hl)))))
+   `(custom-button-pressed-unraised ((t (:inherit custom-button-pressed))))
+   `(custom-button-unraised ((t (:inherit custom-button))))
 
    ;; Info
    `(info-node ((t (:foreground ,color-bright :weight bold :slant italic))))
@@ -464,9 +467,9 @@
    `(w3m-header-line-background ((t (:inherit header-line))))
    `(w3m-header-line-title ((t (:inherit header-line :underline (:color ,color-fg)))))
    `(w3m-form ((t (:inherit widget-field))))
-   `(w3m-form-button ((t (:foreground ,color-bg :background ,color-fg))))
-   `(w3m-form-button-mouse ((t (:foreground ,color-bg :background ,color-hl))))
-   `(w3m-form-button-pressed ((t (:foreground ,color-hl :background ,color-darker :box (:color ,color-hl)))))
+   `(w3m-form-button ((t (:inherit custom-button))))
+   `(w3m-form-button-mouse ((t (:inherit custom-button-mouse))))
+   `(w3m-form-button-pressed ((t (:inherit custom-button-pressed))))
 
    ;; Elfeed
    `(elfeed-search-date-face ((t (:foreground ,color-dark))))
