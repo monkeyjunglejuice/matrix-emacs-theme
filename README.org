@@ -163,4 +163,4 @@ I'm using this theme on a daily basis for writing OCaml, Lisp, Org, HTML and CSS
 
 ** Contribute
 
-If you have issues with the theme or something looks odd, please send a bug report or pull request if you like. You are welcome to add support for further packages/modes.
+If you have issues with the theme or something looks odd, please open an issue or send a pull request (using the `devel' branch, or make a separate feature branch in your repository clone). You are welcome to add support for further packages/modes.
