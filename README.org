@@ -110,14 +110,14 @@ Non-exhaustive list of explicitly themed packages:
 
 ** Installation
 
-*** Emacs package manager (Melpa)
+*** With Emacs package manager (from Melpa)
 
-1. `M-x list-packages RET'
-2. Search for `the-matrix-theme'
-3. Hit the 'i' key to mark the package for installation
-4. Hit 'x' to execute.
+*1.* `M-x list-packages RET'
+*2.* Search for `matrix-theme' /(will be renamed to `the-matrix-theme' soon)/
+*3.* Hit the 'i' key to mark the package for installation
+*4.* Hit 'x' to execute
 
-If you cannot find `the-matrix-theme' between all the packages, it could mean that Melpa may be not enabled yet.
+If you cannot find `matrix-theme' /(resp. `the-matrix-theme')/ between all the packages, it could mean that Melpa may be not enabled yet in your Emacs.
 Here's the official guide how to enable Melpa: https://melpa.org/#/getting-started
 
 *** Manual Installation
