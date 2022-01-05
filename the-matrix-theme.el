@@ -457,7 +457,16 @@
 
    ;; W3m
    `(w3m-anchor ((t (:inherit link))))
+   `(w3m-arrived-anchor ((t (:inherit link-visited))))
    `(w3m-current-anchor ((t (:inherit highlight))))
+   `(w3m-error ((t (:inherit error))))
+   `(w3m-header-line-content ((t (:foreground ,color-middle :inherit header-line))))
+   `(w3m-header-line-background ((t (:inherit header-line))))
+   `(w3m-header-line-title ((t (:inherit header-line :underline (:color ,color-fg)))))
+   `(w3m-form ((t (:inherit widget-field))))
+   `(w3m-form-button ((t (:foreground ,color-bg :background ,color-fg))))
+   `(w3m-form-button-mouse ((t (:foreground ,color-bg :background ,color-hl))))
+   `(w3m-form-button-pressed ((t (:foreground ,color-hl :background ,color-darker :box (:color ,color-hl)))))
 
    ;; Elfeed
    `(elfeed-search-date-face ((t (:foreground ,color-dark))))
