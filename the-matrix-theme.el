@@ -118,6 +118,9 @@
    `(dired-perm-write ((t (:foreground ,color-middle))))
    `(dired-special ((t (:foreground ,color-middle))))
 
+   ;; Calendar
+   `(calendar-weekend-header ((t (:inherit fixed-pitch))))
+
    ;; Eshell
    `(eshell-prompt ((t (:inherit comint-highlight-prompt))))
    `(eshell-ls-directory ((t (:inherit dired-directory))))
