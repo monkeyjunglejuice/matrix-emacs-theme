@@ -23,11 +23,9 @@ There are only three base colors used:
 
 Due to the the reduced amount of colors, this theme makes use of font styles: italics, a lighter weight and an alternative monospaced font, configured via ~fixed-pitch-serif~. The latter is used to distinguish strings, comments and documentation.
 
-Monospace fonts come in different character widths. If your ~default~ and ~fixed-pitch-serif~ have a different character width, then the columns will not align with each other.
+Monospace fonts come in different character widths. If your ~default~ and ~fixed-pitch-serif~ have a different character width, then the columns will not align with each other. If you don't set your ~fixed-pitch-serif~ explicitly, then a font for ~fixed-pitch-serif~ will be chosen by your system, which may or may not go well with your ~default~ font.
 
-For best results, I recommend to configure Emacs' primary font ~default~ and a secondary font ~fixed-pitch-serif~ (examples below). Each monospaced font should *have the same width*. If you don't set your ~fixed-pitch-serif~ explicitly, then a font for ~fixed-pitch-serif~ will be chosen by your system, which may or may not go well with your ~default~ font.
-
-Here are some font pairings that work well together. You can set up one as your ~default~ and the other one as ~fixed-pitch-serif~:
+For best results, I recommend to configure Emacs' primary font ~default~ and a secondary font ~fixed-pitch-serif~ (examples below). Each monospaced font should *have the same width*. Here are some font pairings that work well together. You can set up one as your ~default~ and the other one as ~fixed-pitch-serif~:
 
 | ~default~                    | ~fixed-pitch-serif~          | Download                                  |
 |------------------------------+------------------------------+-------------------------------------------|
