@@ -34,7 +34,7 @@ For best results, I recommend to configure Emacs' primary font ~default~ and a s
 | Courier Prime Code           | Courier Prime                | https://quoteunquoteapps.com/courierprime |
 | Fira Code ~:weight 'normal~  | Fira Code ~:weight 'light~   | https://github.com/bBoxType/FiraSans      |
 
-/If you know other fonts that have exactly the same width and pair nicely, please let me know (create an issue or PR) and I will add your pairing to the table./
+/If you know other font pairs that have exactly the same width and look nicely together, please let me know (create an issue or PR) and I will add your pairing to the table./
 
 To disable this feature, simple set your ~fixed-pitch-serif~ to the same font as your ~default~.
 
