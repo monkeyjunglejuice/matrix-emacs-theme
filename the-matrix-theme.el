@@ -191,14 +191,14 @@
    `(font-latex-script-char-face ((t (:inherit font-latex-math-face))))
 
    ;; Outline
-   `(outline-1 ((t (:weight bold :height 1.6))))
-   `(outline-2 ((t (:weight bold :height 1.4))))
-   `(outline-3 ((t (:weight bold :height 1.2))))
-   `(outline-4 ((t (:weight bold))))
-   `(outline-5 ((t (:weight bold))))
-   `(outline-6 ((t (:weight bold))))
-   `(outline-7 ((t (:weight bold))))
-   `(outline-8 ((t (:weight bold))))
+   `(outline-1 ((t (:foreground ,color-middle :weight bold :height 1.6))))
+   `(outline-2 ((t (:foreground ,color-middle :weight bold :height 1.4))))
+   `(outline-3 ((t (:foreground ,color-middle :weight bold :height 1.2))))
+   `(outline-4 ((t (:foreground ,color-middle :weight bold))))
+   `(outline-5 ((t (:foreground ,color-middle :weight bold))))
+   `(outline-6 ((t (:foreground ,color-middle :weight bold))))
+   `(outline-7 ((t (:foreground ,color-middle :weight bold))))
+   `(outline-8 ((t (:foreground ,color-middle :weight bold))))
 
    ;; Org-mode
    `(org-hide ((t (:foreground ,color-bg))))
