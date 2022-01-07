@@ -21,38 +21,52 @@ There are only three base colors used:
 
 ** Typography
 
-The theme makes use of italic, as well as bold and light weights (if provided by your font). My favorite monospaced font right now is `[[https://www.recursive.design/][Recursive]]'; `[[https://typeof.net/Iosevka/][Iosevka]]' works equally well.
+Due to the the reduced amount of colors, this theme makes use of font styles: italics, a lighter weight and an alternative monospaced font, configured via ~fixed-pitch-serif~. The latter is used to distinguish strings, comments and documentation.
 
-For best results, I recommend to configure Emacs' main faces `default' and `fixed-pitch-serif'. The latter is used to better distinguish strings, comments and documentation. Just for your inspiration (optional):
+Monospace fonts come in different character widths. If your ~default~ and ~fixed-pitch-serif~ have a different character width, then the columns will not align with each other.
+
+For best results, I recommend to configure Emacs' primary font ~default~ and a secondary font ~fixed-pitch-serif~ (examples below). Each monospaced font should *have the same width*. If you don't set your ~fixed-pitch-serif~ explicitly, then a font for ~fixed-pitch-serif~ will be chosen by your system, which may or may not go well with your ~default~ font.
+
+Here are some font pairings that work well together. You can set up one as your ~default~ and the other one as ~fixed-pitch-serif~:
+
+| ~default~                    | ~fixed-pitch-serif~          | Download                                  |
+|------------------------------+------------------------------+-------------------------------------------|
+| Iosevka                      | Iosevka Slab                 | https://typeof.net/Iosevka                |
+| Recursive Mono Linear Static | Recursive Mono Casual Static | https://www.recursive.design              |
+| Courier Prime Code           | Courier Prime                | https://quoteunquoteapps.com/courierprime |
+| Fira Code, ~:weight 'normal~ | Fira Code ~:weight 'medium~  | https://github.com/bBoxType/FiraSans      |
+/If you know other fonts that have exactly the same width and pair nicely, please let me know (create an issue or PR) and I will add your pairing to the table./
+
+To disable this feature, simple set your ~fixed-pitch-serif~ to the same font as your ~default~.
 
 #+caption: Example font config
 #+begin_src emacs-lisp
   (defun my-fonts ()
     "Set the default fonts."
     (set-face-attribute 'default nil
-                        :family "Rec Mono Linear" ; default: "Monospace"
+                        :family "Recursive Mono Linear Static"
                         :slant  'normal
                         :weight 'normal
                         :width  'normal
-                        :height 128)
+                        :height 120)
     (set-face-attribute 'fixed-pitch nil
-                        :family "Rec Mono Linear" ; default: "Monospace"
+                        :family "Recursive Mono Linear Static"
                         :slant  'normal
                         :weight 'normal
                         :width  'normal
-                        :height 128)
+                        :height 120)
     (set-face-attribute 'fixed-pitch-serif nil
-                        :family "Rec Mono Casual" ; default: "Monospace"
+                        :family "Recursive Mono Casual Static"
                         :slant  'normal
                         :weight 'normal
                         :width  'normal
-                        :height 128)
+                        :height 120)
     (set-face-attribute 'variable-pitch nil
-                        :family "Recursive Sans Casual Static" ; default: "Serif"
+                        :family "Recursive Sans Casual Static"
                         :slant  'normal
                         :weight 'normal
                         :width  'normal
-                        :height 128))
+                        :height 140))
 
   (my-fonts) ; Apply the function
 
@@ -60,17 +74,17 @@ For best results, I recommend to configure Emacs' main faces `default' and `fixe
   (defun my-modeline ()
     "Custom modeline styling."
     (set-face-attribute 'mode-line nil
-                        :family "Rec Mono Linear"
+                        :family "Recursive Mono Linear Static"
                         :slant  'normal
                         :weight 'normal
                         :width  'normal
-                        :height 98)
+                        :height 100)
     (set-face-attribute 'mode-line-inactive nil
-                        :family "Rec Mono Linear"
+                        :family "Recursive Mono Linear Static"
                         :slant  'normal
                         :weight 'normal
                         :width  'normal
-                        :height 98))
+                        :height 100))
 
   (my-modeline) ; Apply the function
 #+end_src
