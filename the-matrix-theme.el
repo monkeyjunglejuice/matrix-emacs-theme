@@ -264,7 +264,7 @@
 
    ;; Magit
    `(magit-branch-local ((t (:foreground ,color-middle :weight bold))))
-   `(magit-branch-remote ((t (:foreground ,color-middle :weight bold))))
+   `(magit-branch-remote ((t (:foreground ,color-middle :weight bold :slant italic))))
    `(magit-tag ((t (:foreground ,color-dark :background nil :inherit italic))))
    `(magit-hash ((t (:foreground ,color-bright))))
    `(magit-section-title ((t (:foreground ,color-fg :background nil))))
