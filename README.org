@@ -21,7 +21,7 @@ There are only three base colors used:
 
 ** Typography
 
-Due to the the reduced amount of colors, this theme makes use of font styles: italics, a lighter weight and an alternative monospaced font, configured via ~fixed-pitch-serif~. The latter is used to distinguish strings, comments and documentation.
+Due to the the reduced amount of colors, this theme makes use of font styles: italic, a lighter weight and an alternative monospaced font, configured via ~fixed-pitch-serif~. The latter is used to distinguish strings, comments and documentation.
 
 Monospace fonts come in different character widths. If your ~default~ and ~fixed-pitch-serif~ have a different character width, then the columns will not align with each other. If you don't set your ~fixed-pitch-serif~ explicitly, then a font for ~fixed-pitch-serif~ will be chosen by your system, which may or may not go well with your ~default~ font.
 
@@ -32,7 +32,8 @@ For best results, I recommend to configure Emacs' primary font ~default~ and a s
 | Iosevka                      | Iosevka Slab                 | https://typeof.net/Iosevka                |
 | Recursive Mono Linear Static | Recursive Mono Casual Static | https://www.recursive.design              |
 | Courier Prime Code           | Courier Prime                | https://quoteunquoteapps.com/courierprime |
-| Fira Code, ~:weight 'normal~ | Fira Code ~:weight 'medium~  | https://github.com/bBoxType/FiraSans      |
+| Fira Code ~:weight 'normal~  | Fira Code ~:weight 'light~   | https://github.com/bBoxType/FiraSans      |
+
 /If you know other fonts that have exactly the same width and pair nicely, please let me know (create an issue or PR) and I will add your pairing to the table./
 
 To disable this feature, simple set your ~fixed-pitch-serif~ to the same font as your ~default~.
