@@ -284,7 +284,7 @@
    `(magit-popup-argument ((t (:inherit font-lock-function-name-face))))
    `(magit-popup-disabled-argument ((t (:inherit font-lock-comment-face))))
    `(magit-process-ok ((t (:inherit success))))
-   `(magit-diff-hunk-heading ((t (:background unspecified :foreground unspecified :inherit header-line))))
+   `(magit-diff-hunk-heading ((t (:background ,color-bg :inherit header-line :underline t))))
    `(magit-diff-hunk-heading-highlight ((t (:background unspecified :foreground unspecified :inherit magit-diff-hunk-heading))))
    `(magit-filename ((t (:inherit git-commit-comment-file))))
 
