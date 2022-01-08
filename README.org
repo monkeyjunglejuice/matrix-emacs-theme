@@ -23,9 +23,9 @@ There are only three base colors used:
 
 Due to the the reduced amount of colors, this theme makes use of font styles: italic, a lighter weight and an alternative monospaced font, configured via ~fixed-pitch-serif~. The latter is used to distinguish strings, comments and documentation.
 
-Monospace fonts come in different character widths. If your ~default~ and ~fixed-pitch-serif~ have a different character width, then the columns will not align with each other. If you don't set your ~fixed-pitch-serif~ explicitly, then a font for ~fixed-pitch-serif~ will be chosen by your system, which may or may not go well with your ~default~ font.
+Monospace fonts come in different character width. If your ~default~ and ~fixed-pitch-serif~ have a different width, then the columns will not align with each other. If you don't set your ~fixed-pitch-serif~ explicitly, then a substitute font for ~fixed-pitch-serif~ will be chosen by Emacs, which may or may not go well with your ~default~ font.
 
-For best results, I recommend to configure Emacs' primary font ~default~ and a secondary font ~fixed-pitch-serif~ (examples below). Each monospaced font should *have the same width*. Here are some font pairings that work well together. You can set up one as your ~default~ and the other one as ~fixed-pitch-serif~:
+For best results, I recommend to configure Emacs' primary font ~default~ and a secondary font ~fixed-pitch-serif~ (examples below). Each monospaced font *should have the same width*. Here are some font pairings that work well together. You can set up one as your ~default~ and the other one as ~fixed-pitch-serif~:
 
 | ~default~                    | ~fixed-pitch-serif~          | Download                                  |
 |------------------------------+------------------------------+-------------------------------------------|
@@ -36,7 +36,7 @@ For best results, I recommend to configure Emacs' primary font ~default~ and a s
 
 /If you know other font pairs that have exactly the same width and look nicely together, please let me know (create an issue or PR) and I will add your pairing to the table./
 
-To disable this feature, simple set your ~fixed-pitch-serif~ to the same font as your ~default~.
+To disable this feature, simply set your ~fixed-pitch-serif~ to the same font as your ~default~.
 
 #+caption: Example font config
 #+begin_src emacs-lisp
