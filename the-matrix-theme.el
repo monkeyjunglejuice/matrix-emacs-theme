@@ -275,7 +275,7 @@
    `(magit-hash ((t (:foreground ,color-bright))))
    `(magit-section-title ((t (:foreground ,color-fg :background nil))))
    `(magit-section-heading ((t (:background nil :foreground ,color-fg))))
-   `(magit-section-highlight ((t (:background nil))))
+   `(magit-section-highlight ((t (:background ,color-bg-alt))))
    `(magit-item-highlight ((t (:foreground ,color-fg :background ,color-bright))))
    `(magit-log-author ((t (:foreground ,color-dark))))
    `(magit-diff-added ((t (:inherit diff-added))))
