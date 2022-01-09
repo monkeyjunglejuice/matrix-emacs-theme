@@ -152,7 +152,7 @@
    `(custom-variable-obsolete ((t (:foreground ,color-dark :weight bold))))
    `(custom-documentation ((t (:slant italic :inherit fixed-pitch-serif))))
    `(custom-visibility ((t (:inherit custom-documentation :underline t))))
-   `(custom-state ((t (:foreground ,color-blue :inherit fixed-pitch-serif))))
+   `(custom-state ((t (:foreground ,color-blue))))
    `(custom-button ((t (:foreground ,color-bg :background ,color-fg))))
    `(custom-button-mouse ((t (:foreground ,color-bg :background ,color-hl))))
    `(custom-button-pressed ((t (:foreground ,color-hl :background ,color-darker))))
