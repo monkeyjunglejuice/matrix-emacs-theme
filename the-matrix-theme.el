@@ -311,11 +311,11 @@
    `(company-tooltip-search ((t (:inherit lazy-highlight))))
    `(company-tooltip-search-selection ((t (:inherit company-tooltip-search))))
    `(company-tooltip ((t (:foreground ,color-bright :background ,color-darker))))
-   `(company-tooltip-annotation ((t (:foreground ,color-fg))))
+   `(company-tooltip-annotation ((t (:foreground ,color-middle))))
    `(company-tooltip-annotation-selection ((t (:weight normal))))
    `(company-tooltip-common ((t (:foreground ,color-fg))))
    `(company-tooltip-common-selection ((t (:foreground ,color-middle))))
-   `(company-tooltip-selection ((t (:foreground ,color-hl :weight bold :underline t))))
+   `(company-tooltip-selection ((t (:foreground ,color-hl :weight bold :underline (:color ,color-bright)))))
    `(company-scrollbar-bg ((t (:background ,color-darker))))
    `(company-scrollbar-fg ((t (:background ,color-dark))))
 
