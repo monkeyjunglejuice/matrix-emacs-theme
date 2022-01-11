@@ -59,15 +59,15 @@
 
    `(font-lock-face ((t (:foreground ,color-middle))))
    `(font-lock-builtin-face ((t (:foreground ,color-middle))))
-   `(font-lock-comment-face ((t (:foreground ,color-dark :inherit fixed-pitch-serif :slant italic))))
-   `(font-lock-doc-face ((t (:background ,color-bg-alt :slant italic :inherit fixed-pitch-serif))))
+   `(font-lock-comment-face ((t (:foreground ,color-dark :inherit fixed-pitch-serif))))
+   `(font-lock-doc-face ((t (:foreground ,color-dark :slant italic :inherit fixed-pitch-serif))))
    `(font-lock-constant-face ((t (:foreground ,color-middle))))
    `(font-lock-function-name-face ((t (:weight bold :slant italic))))
    `(font-lock-keyword-face ((t (:foreground ,color-bright))))
    `(font-lock-string-face ((t (:background ,color-bg-alt :inherit fixed-pitch-serif))))
    `(font-lock-type-face ((t (:weight bold))))
    `(font-lock-variable-name-face ((t (:slant italic))))
-   `(font-lock-warning-face ((t (:foreground ,color-red))))
+   `(font-lock-warning-face ((t (:foreground ,color-red :weight bold))))
    `(font-lock-regexp-grouping-construct ((t (:foreground ,color-bright))))
    `(font-lock-regexp-grouping-backslash ((t (:foreground ,color-bright))))
 
