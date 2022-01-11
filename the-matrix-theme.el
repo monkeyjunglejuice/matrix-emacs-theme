@@ -306,6 +306,8 @@
    `(diff-hl-delete ((t (:foreground ,color-dark))))
 
    ;; Company
+   `(company-echo ((t (:inherit company-preview))))
+   `(company-echo-common ((t (:inherit company-tooltip-common))))
    `(company-preview ((t (:foreground ,color-fg))))
    `(company-preview-common ((t (:foreground ,color-fg :background nil))))
    `(company-tooltip-search ((t (:inherit lazy-highlight))))
@@ -315,7 +317,7 @@
    `(company-tooltip-annotation-selection ((t (:weight normal))))
    `(company-tooltip-common ((t (:foreground ,color-fg))))
    `(company-tooltip-common-selection ((t (:foreground ,color-middle))))
-   `(company-tooltip-selection ((t (:foreground ,color-hl :weight bold :underline (:color ,color-bright)))))
+   `(company-tooltip-selection ((t (:foreground ,color-hl :background ,color-darker :weight bold :underline (:color ,color-bright)))))
    `(company-scrollbar-bg ((t (:background ,color-darker))))
    `(company-scrollbar-fg ((t (:background ,color-dark))))
 
