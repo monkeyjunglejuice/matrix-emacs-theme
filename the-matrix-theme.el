@@ -366,6 +366,9 @@
    `(sldb-restartable-frame-line-face ((t (:inherit link))))
    `(sldb-section-face ((t (:foreground ,color-dark :weight bold))))
 
+   ;; Cider
+   `(cider-repl-stdout-face ((t (:inherit default))))
+
    ;; Tuareg
    `(tuareg-font-lock-interactive-output-face ((t (:foreground ,color-bright))))
    `(tuareg-font-lock-interactive-error-face ((t (:inherit error))))
