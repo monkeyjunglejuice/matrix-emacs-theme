@@ -55,7 +55,7 @@
    `(mode-line-inactive ((t (:foreground ,color-dark :box (:color ,color-dark)))))
    `(fringe ((t (:background ,color-bg))))
    `(vertical-border ((t (:foreground ,color-fg :background nil))))
-   `(minibuffer-prompt ((t (:inherit comint-highlight-prompt))))
+   `(minibuffer-prompt ((t (:foreground ,color-hl :slant italic :weight bold))))
 
    `(font-lock-face ((t (:foreground ,color-middle))))
    `(font-lock-builtin-face ((t (:foreground ,color-middle))))
@@ -120,7 +120,7 @@
    `(dired-special ((t (:foreground ,color-middle))))
 
    ;; Eshell
-   `(eshell-prompt ((t (:inherit comint-highlight-prompt))))
+   `(eshell-prompt ((t (:inherit minibuffer-prompt))))
    `(eshell-ls-directory ((t (:inherit dired-directory))))
    `(eshell-ls-archive ((t (:slant italic :inherit dired-directory))))
    `(eshell-ls-symlink ((t (:inherit dired-symlink))))
@@ -130,7 +130,7 @@
    `(eshell-ls-special ((t (:inherit dired-special))))
 
    ;; Comint
-   `(comint-highlight-prompt ((t (:foreground ,color-hl :slant italic))))
+   `(comint-highlight-prompt ((t (:inherit minibuffer-prompt))))
    `(comint-highlight-input ((t (:inherit default))))
 
    ;; Completions
@@ -362,7 +362,7 @@
    `(slime-repl-inputed-output-face ((t (:foreground ,color-middle))))
    `(slime-repl-output-mouseover-face ((t (:foreground ,color-bright :box nil))))
    `(slime-repl-input-face ((t (:inherit default))))
-   `(slime-repl-prompt ((t (:inherit comint-highlight-prompt))))
+   `(slime-repl-prompt ((t (:inherit minibuffer-prompt))))
    `(sldb-restartable-frame-line-face ((t (:inherit link))))
    `(sldb-section-face ((t (:foreground ,color-dark :weight bold))))
 
@@ -390,7 +390,7 @@
 
    ;; Utop
    `(utop-frozen ((t (:inherit default))))
-   `(utop-prompt ((t (:inherit comint-highlight-prompt))))
+   `(utop-prompt ((t (:inherit minibuffer-prompt))))
    `(utop-error  ((t (:inherit error))))
 
    ;; Selectrum
