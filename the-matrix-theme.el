@@ -367,7 +367,20 @@
    `(sldb-section-face ((t (:foreground ,color-dark :weight bold))))
 
    ;; Cider
+   `(cider-result-overlay-face ((t (:background ,color-bg-alt))))
+   `(cider-fringe-good-face ((t (:foreground ,color-dark))))
+   `(cider-warning-highlight-face ((t (:foreground ,color-blue :background ,color-bg-blue :slant italic))))
+   `(cider-test-error-face ((t (:inherit font-lock-warning-face))))
+   `(cider-test-failure-face ((t (:inherit font-lock-warning-face))))
+   `(cider-test-success-face ((t (:foreground ,color-middle :weight bold))))
+   `(cider-repl-prompt-face ((t (:inherit minibuffer-prompt))))
    `(cider-repl-stdout-face ((t (:inherit default))))
+   `(cider-repl-stderr-face ((t (:inherit font-lock-warning-face))))
+   `(cider-stacktrace-error-class-face ((t (:inherit font-lock-warning-face))))
+   `(cider-error-highlight-face ((t (:inherit error))))
+
+   ;; Clojure-mode
+   `(clojure-keyword-face ((t (:inherit font-lock-builtin-face))))
 
    ;; Tuareg
    `(tuareg-font-lock-interactive-output-face ((t (:foreground ,color-bright))))
