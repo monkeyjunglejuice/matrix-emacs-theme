@@ -46,7 +46,7 @@
    `(default ((t (:background ,color-bg :foreground ,color-fg))))
    `(cursor ((t (:background ,color-hl))))
    `(region ((t (:foreground ,color-middle :background ,color-darker))))
-   `(success ((t (:foreground ,color-bright :background ,color-darker))))
+   `(success ((t (:foreground ,color-middle :background ,color-darker))))
    `(warning ((t (:foreground ,color-blue :background ,color-bg-blue))))
    `(error ((t (:foreground ,color-red :background ,color-bg-red))))
    `(secondary-selection ((t (:background ,color-bg-alt))))
@@ -113,10 +113,10 @@
    `(dired-header ((t (:foreground ,color-bright :slant italic))))
    `(dired-directory ((t (:weight bold))))
    `(dired-symlink ((t (:slant italic))))
-   `(dired-mark ((t (:foreground ,color-hl))))
-   `(dired-marked ((t (:inherit dired-mark))))
-   `(dired-flagged ((t (:foreground ,color-red))))
-   `(dired-perm-write ((t (:foreground ,color-middle))))
+   `(dired-mark ((t (:foreground ,color-hl :background ,color-darker))))
+   `(dired-marked ((t (:foreground ,color-bright :background ,color-darker))))
+   `(dired-flagged ((t (:foreground ,color-red :background ,color-bg-red))))
+   `(dired-perm-write ((t (:foreground ,color-bright))))
    `(dired-special ((t (:foreground ,color-middle))))
 
    ;; Eshell
