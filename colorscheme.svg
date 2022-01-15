@@ -321,7 +321,7 @@
          y="173.47055"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:monospace;-inkscape-font-specification:monospace;text-align:end;text-anchor:end;fill:#00ff7f;fill-opacity:1;stroke-width:0.264583">color-hl</tspan></text>
     <rect
-       style="fill:#d92000;fill-opacity:1;stroke:none;stroke-width:3;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.949367;paint-order:normal"
+       style="fill:#cc2000;fill-opacity:1;stroke:none;stroke-width:3;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.949367;paint-order:normal"
        id="rect892-9-0-2-2-1-4"
        width="104.18454"
        height="13.825314"
@@ -341,7 +341,7 @@
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:monospace;-inkscape-font-specification:monospace;fill:#000000;fill-opacity:1;stroke-width:0.264583">color-red</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:monospace;-inkscape-font-specification:monospace;text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#d92000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:monospace;-inkscape-font-specification:monospace;text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#cc2000;fill-opacity:1;stroke:none;stroke-width:0.264583"
        x="131.29161"
        y="256.42249"
        id="text838-3-7-5-7-3-4"><tspan
@@ -349,9 +349,9 @@
          id="tspan836-6-5-9-3-1-5"
          x="131.29161"
          y="256.42249"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:monospace;-inkscape-font-specification:monospace;text-align:end;text-anchor:end;fill:#d92000;fill-opacity:1;stroke-width:0.264583">color-red</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:monospace;-inkscape-font-specification:monospace;text-align:end;text-anchor:end;fill:#cc2000;fill-opacity:1;stroke-width:0.264583">color-red</tspan></text>
     <rect
-       style="fill:#006bf2;fill-opacity:1;stroke:none;stroke-width:3;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.949367;paint-order:normal"
+       style="fill:#007bff;fill-opacity:1;stroke:none;stroke-width:3;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.949367;paint-order:normal"
        id="rect892-9-0-2-2-1-4-3-3"
        width="104.18454"
        height="13.825314"
@@ -371,7 +371,7 @@
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:monospace;-inkscape-font-specification:monospace;fill:#000000;fill-opacity:1;stroke-width:0.264583">color-blue</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:monospace;-inkscape-font-specification:monospace;text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#006bf2;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:monospace;-inkscape-font-specification:monospace;text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#007bff;fill-opacity:1;stroke:none;stroke-width:0.264583"
        x="131.29161"
        y="270.24774"
        id="text838-3-7-5-7-3-4-0-5"><tspan
@@ -379,9 +379,9 @@
          id="tspan836-6-5-9-3-1-5-6-3"
          x="131.29161"
          y="270.24774"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:monospace;-inkscape-font-specification:monospace;text-align:end;text-anchor:end;fill:#006bf2;fill-opacity:1;stroke-width:0.264583">color-blue</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:monospace;-inkscape-font-specification:monospace;text-align:end;text-anchor:end;fill:#007bff;fill-opacity:1;stroke-width:0.264583">color-blue</tspan></text>
     <rect
-       style="fill:#001733;fill-opacity:1;stroke:none;stroke-width:3;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.949367;paint-order:normal"
+       style="fill:#001933;fill-opacity:1;stroke:none;stroke-width:3;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.949367;paint-order:normal"
        id="rect892-9-0-2-2-1-4-3-3-5"
        width="104.18454"
        height="13.825314"
@@ -398,7 +398,7 @@
        inkscape:label="color-bg-alt" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:monospace;-inkscape-font-specification:monospace;letter-spacing:0px;word-spacing:0px;fill:#d92000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:monospace;-inkscape-font-specification:monospace;letter-spacing:0px;word-spacing:0px;fill:#cc2000;fill-opacity:1;stroke:none;stroke-width:0.264583"
        x="145.71184"
        y="145.81993"
        id="text838-7-3-6-3-8-2-7-6"><tspan
@@ -406,7 +406,7 @@
          id="tspan836-0-6-2-7-9-9-8-7"
          x="145.71184"
          y="145.81993"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:monospace;-inkscape-font-specification:monospace;fill:#d92000;fill-opacity:1;stroke-width:0.264583">color-bg-red</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:monospace;-inkscape-font-specification:monospace;fill:#cc2000;fill-opacity:1;stroke-width:0.264583">color-bg-red</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:monospace;-inkscape-font-specification:monospace;text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#330800;fill-opacity:1;stroke:none;stroke-width:0.264583"
@@ -420,7 +420,7 @@
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:monospace;-inkscape-font-specification:monospace;text-align:end;text-anchor:end;fill:#330800;fill-opacity:1;stroke-width:0.264583">color-bg-red</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:monospace;-inkscape-font-specification:monospace;letter-spacing:0px;word-spacing:0px;fill:#006bf2;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:monospace;-inkscape-font-specification:monospace;letter-spacing:0px;word-spacing:0px;fill:#007bff;fill-opacity:1;stroke:none;stroke-width:0.264583"
        x="145.71184"
        y="159.64522"
        id="text838-7-3-6-3-8-2-7-6-6-6"><tspan
@@ -428,10 +428,10 @@
          id="tspan836-0-6-2-7-9-9-8-1-7-2"
          x="145.71184"
          y="159.64522"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:monospace;-inkscape-font-specification:monospace;fill:#006bf2;fill-opacity:1;stroke-width:0.264583">color-bg-blue</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:monospace;-inkscape-font-specification:monospace;fill:#007bff;fill-opacity:1;stroke-width:0.264583">color-bg-blue</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:monospace;-inkscape-font-specification:monospace;text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#001733;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:monospace;-inkscape-font-specification:monospace;text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#001933;fill-opacity:1;stroke:none;stroke-width:0.264583"
        x="131.29161"
        y="159.64522"
        id="text838-3-7-5-7-3-4-0-5-9"><tspan
@@ -439,6 +439,6 @@
          id="tspan836-6-5-9-3-1-5-6-3-1"
          x="131.29161"
          y="159.64522"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:monospace;-inkscape-font-specification:monospace;text-align:end;text-anchor:end;fill:#001733;fill-opacity:1;stroke-width:0.264583">color-bg-blue</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:monospace;-inkscape-font-specification:monospace;text-align:end;text-anchor:end;fill:#001933;fill-opacity:1;stroke-width:0.264583">color-bg-blue</tspan></text>
   </g>
 </svg>

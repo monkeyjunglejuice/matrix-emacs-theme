@@ -23,9 +23,9 @@ There are only three base colors used:
 
 Due to the the reduced amount of colors, this theme makes use of font styles: italic, a lighter weight and an alternative monospaced font, configured via ~fixed-pitch-serif~. The latter is used to distinguish strings, comments and documentation.
 
-Monospace fonts come in different character widths. If your ~default~ and ~fixed-pitch-serif~ have a different character width, then the columns will not align with each other. If you don't set your ~fixed-pitch-serif~ explicitly, then a font for ~fixed-pitch-serif~ will be chosen by your system, which may or may not go well with your ~default~ font.
+Monospace fonts come in different character width. If your ~default~ and ~fixed-pitch-serif~ have a different width, then the columns will not align with each other. If you don't set your ~fixed-pitch-serif~ explicitly, then a substitute font for ~fixed-pitch-serif~ will be chosen by Emacs, which may or may not go well with your ~default~ font.
 
-For best results, I recommend to configure Emacs' primary font ~default~ and a secondary font ~fixed-pitch-serif~ (examples below). Each monospaced font should *have the same width*. Here are some font pairings that work well together. You can set up one as your ~default~ and the other one as ~fixed-pitch-serif~:
+For best results, I recommend to configure Emacs' primary font ~default~ and a secondary font ~fixed-pitch-serif~ (examples below). Each monospaced font *should have the same width*. Here are some font pairings that work well together. You can set up one as your ~default~ and the other one as ~fixed-pitch-serif~:
 
 | ~default~                    | ~fixed-pitch-serif~          | Download                                  |
 |------------------------------+------------------------------+-------------------------------------------|
@@ -36,7 +36,7 @@ For best results, I recommend to configure Emacs' primary font ~default~ and a s
 
 /If you know other font pairs that have exactly the same width and look nicely together, please let me know (create an issue or PR) and I will add your pairing to the table./
 
-To disable this feature, simple set your ~fixed-pitch-serif~ to the same font as your ~default~.
+To disable this feature, simply set your ~fixed-pitch-serif~ to the same font as your ~default~.
 
 #+caption: Example font config
 #+begin_src emacs-lisp
@@ -125,15 +125,15 @@ Non-exhaustive list of explicitly themed packages:
 
 *** With Emacs package manager (from Melpa)
 
-*1.* `M-x list-packages RET'
+*1.* 'M-x list-packages RET'
 
-*2.* Search for `matrix-theme' /(will be renamed to `the-matrix-theme' soon)/
+*2.* Search for 'the-matrix-theme'
 
 *3.* Hit the 'i' key to mark the package for installation
 
 *4.* Hit 'x' to execute
 
-If you cannot find `matrix-theme' /(resp. `the-matrix-theme')/ between all the packages, it could mean that Melpa may be not enabled yet in your Emacs.
+If you cannot find "the-matrix-theme" between all the packages, it could mean that Melpa may be not yet enabled in your Emacs.
 Here's the official guide how to enable Melpa: https://melpa.org/#/getting-started
 
 *** Manual Installation
@@ -158,7 +158,7 @@ Here's the official guide how to enable Melpa: https://melpa.org/#/getting-start
           (add-to-list 'custom-theme-load-path (concat basedir f)))))
 #+end_src
 
-*4.* (Re)start Emacs. You can now disable your current Emacs theme `M-x disable-theme ... RET' and then `M-x load-theme RET the-matrix RET'
+*4.* (Re)start Emacs. You can now disable your current Emacs theme 'M-x disable-theme ... RET' and then 'M-x load-theme RET the-matrix RET'
 
 ** Current Status
 
