@@ -120,6 +120,8 @@ Non-exhaustive list of explicitly themed packages:
 - beancount
 - w3m
 - elfeed
+- cider
+- clojure-mode
 
 ** Installation
 
