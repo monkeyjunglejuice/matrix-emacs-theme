@@ -187,7 +187,7 @@
    `(erc-timestamp-face ((t (:foreground ,color-bright :weight unspecified))))
    `(erc-current-nick-face ((t (:background ,color-dark :foreground ,color-bg :weight unspecified))))
    `(erc-input-face ((t (:foreground ,color-dark))))
-   `(erc-prompt-face ((t (:foreground ,color-bright :background nil :inherit italic :weight unspecified))))
+   `(erc-prompt-face ((t (:inherit minibuffer-prompt))))
    `(erc-my-nick-face ((t (:foreground ,color-fg))))
    `(erc-pal-face ((t (:foreground ,color-dark :inherit italic))))
 
