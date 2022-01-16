@@ -330,7 +330,7 @@
    `(flycheck-error ((t (:inherit error))))
    `(flycheck-fringe-error ((t (:inherit flycheck-error))))
    `(flycheck-warning ((t (:inherit warning))))
-   `(flycheck-fringe-warning ((t (:foreground ,color-red))))
+   `(flycheck-fringe-warning ((t (:foreground ,color-blue))))
    `(flycheck-info ((t (:underline (:color ,color-blue :style wave)))))
    `(flycheck-fringe-info ((t (:foreground ,color-blue))))
 
