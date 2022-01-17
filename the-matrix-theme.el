@@ -297,13 +297,13 @@
 
    ;; Git-gutter-fringe
    `(git-gutter-fr:modified ((t (:foreground ,color-dark))))
-   `(git-gutter-fr:added ((t (:foreground ,color-dark))))
-   `(git-gutter-fr:deleted ((t (:foreground ,color-dark))))
+   `(git-gutter-fr:added ((t (:foreground ,color-blue))))
+   `(git-gutter-fr:deleted ((t (:foreground ,color-red))))
 
    ;; Diff-hl
    `(diff-hl-change ((t (:foreground ,color-dark))))
-   `(diff-hl-insert ((t (:foreground ,color-dark))))
-   `(diff-hl-delete ((t (:foreground ,color-dark))))
+   `(diff-hl-insert ((t (:foreground ,color-blue))))
+   `(diff-hl-delete ((t (:foreground ,color-red))))
 
    ;; Company
    `(company-echo ((t (:inherit company-preview))))
