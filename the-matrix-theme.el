@@ -330,9 +330,10 @@
    `(flycheck-error ((t (:inherit error))))
    `(flycheck-fringe-error ((t (:inherit flycheck-error))))
    `(flycheck-warning ((t (:inherit warning))))
-   `(flycheck-fringe-warning ((t (:foreground ,color-blue))))
-   `(flycheck-info ((t (:underline (:color ,color-blue :style wave)))))
-   `(flycheck-fringe-info ((t (:foreground ,color-blue))))
+   `(flycheck-fringe-warning ((t (:inherit flycheck-warning))))
+   `(flycheck-info ((t (:foreground ,color-blue))))
+   `(flycheck-fringe-info ((t (:inherit flycheck-info))))
+   `(flycheck-error-list-info ((t (:inherit flycheck-info))))
 
    ;; LSP
    `(lsp-headerline-breadcrumb-path-face ((t (:foreground ,color-dark))))
