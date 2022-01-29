@@ -67,7 +67,7 @@
    `(font-lock-string-face ((t (:background ,color-bg-alt :inherit fixed-pitch-serif))))
    `(font-lock-type-face ((t (:weight bold))))
    `(font-lock-variable-name-face ((t (:slant italic))))
-   `(font-lock-warning-face ((t (:foreground ,color-red :weight bold))))
+   `(font-lock-warning-face ((t (:foreground ,color-red :slant italic))))
    `(font-lock-regexp-grouping-construct ((t (:foreground ,color-bright))))
    `(font-lock-regexp-grouping-backslash ((t (:foreground ,color-bright))))
 
