@@ -140,7 +140,7 @@
    ;; Diff
    `(diff-added ((t (:foreground ,color-blue :background ,color-bg-blue))))
    `(diff-removed ((t (:foreground ,color-red :background ,color-bg-red))))
-   `(diff-context ((t (:inherit shadow :background ,color-bg-alt))))
+   `(diff-context ((t (:inherit shadow))))
    `(diff-file-header ((t (:bold t :background ,color-hl :weight bold))))
    `(diff-header ((t (:background ,color-hl :foreground ,color-fg))))
 
@@ -287,12 +287,12 @@
    `(magit-diffstat-removed ((t (:foreground ,color-red))))
    `(magit-diff-removed-highlight ((t (:inherit magit-diff-removed))))
    `(magit-diff-context ((t (:inherit diff-context))))
-   `(magit-diff-context-highlight ((t (:inherit magit-diff-context))))
+   `(magit-diff-context-highlight ((t (:foreground ,color-dark :inherit magit-section-highlight))))
    `(magit-popup-argument ((t (:inherit font-lock-function-name-face))))
    `(magit-popup-disabled-argument ((t (:inherit font-lock-comment-face))))
    `(magit-process-ok ((t (:inherit success))))
    `(magit-diff-hunk-heading ((t (:background ,color-bg :inherit header-line :underline t))))
-   `(magit-diff-hunk-heading-highlight ((t (:background unspecified :foreground unspecified :inherit magit-diff-hunk-heading))))
+   `(magit-diff-hunk-heading-highlight ((t (:inherit magit-section-highlight))))
    `(magit-filename ((t (:inherit git-commit-comment-file))))
 
    ;; Git-gutter-fringe
