@@ -385,7 +385,7 @@
 
    ;; Tuareg
    `(tuareg-font-lock-interactive-output-face ((t (:foreground ,color-bright))))
-   `(tuareg-font-lock-interactive-error-face ((t (:inherit error))))
+   `(tuareg-font-lock-interactive-error-face ((t (:inherit font-lock-warning-face))))
    `(tuareg-font-lock-interactive-directive-face ((t (:foreground ,color-middle))))
    `(tuareg-font-lock-operator-face ((t (:foreground ,color-middle))))
    `(tuareg-font-lock-module-face ((t (:inherit shadow))))
