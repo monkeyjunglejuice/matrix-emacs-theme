@@ -44,7 +44,7 @@
   (custom-theme-set-faces
    'the-matrix
    `(default ((t (:background ,color-bg :foreground ,color-fg))))
-   `(cursor ((t (:background ,color-hl))))
+   `(cursor ((t (:background ,color-bright))))
    `(region ((t (:foreground ,color-middle :background ,color-darker))))
    `(success ((t (:foreground ,color-middle :background ,color-darker :extend t))))
    `(warning ((t (:foreground ,color-blue :background ,color-bg-blue :extend t))))
