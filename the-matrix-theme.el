@@ -397,7 +397,7 @@
 
    ;; Merlin
    `(merlin-compilation-error-face ((t (:inherit error))))
-   `(merlin-type-face ((t (:background ,color-hl))))
+   `(merlin-type-face ((t (:inherit lazy-highlight))))
 
    ;; Merlin-eldoc
    `(merlin-eldoc-occurrences-face ((t (:inherit lazy-highlight))))
