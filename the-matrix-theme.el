@@ -73,7 +73,7 @@
 
    `(isearch ((t (:foreground ,color-hl :weight bold :underline t))))
    `(isearch-fail ((t (:inherit error))))
-   `(lazy-highlight ((t (:foreground ,color-hl :underline t))))
+   `(lazy-highlight ((t (:foreground ,color-hl :underline (:foreground ,color-hl)))))
 
    `(link ((t (:foreground ,color-middle :underline t))))
    `(link-visited ((t (:foreground ,color-fg :underline t))))
