@@ -64,7 +64,7 @@
    `(font-lock-constant-face ((t (:foreground ,color-fg))))
    `(font-lock-function-name-face ((t (:foreground ,color-fg :weight bold :slant italic))))
    `(font-lock-keyword-face ((t (:foreground ,color-bright))))
-   `(font-lock-string-face ((t (:background ,color-bg-alt :inherit fixed-pitch-serif))))
+   `(font-lock-string-face ((t (:inherit fixed-pitch-serif))))
    `(font-lock-type-face ((t (:weight bold))))
    `(font-lock-variable-name-face ((t (:foreground ,color-fg :slant italic))))
    `(font-lock-warning-face ((t (:foreground ,color-red :slant italic))))
