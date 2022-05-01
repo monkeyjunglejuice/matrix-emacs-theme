@@ -390,7 +390,7 @@
    `(tuareg-font-lock-operator-face ((t (:foreground ,color-middle))))
    `(tuareg-font-lock-module-face ((t (:inherit shadow))))
    `(tuareg-font-lock-governing-face ((t (:foreground ,color-bright :weight bold))))
-   `(tuareg-font-lock-label-face ((t (:foreground ,color-middle))))
+   `(tuareg-font-lock-label-face ((t (:inherit shadow))))
    `(tuareg-font-lock-line-number-face ((t (:inherit linum))))
    `(tuareg-font-double-colon-face ((t (:inherit tuareg-font-lock-governing-face))))
    `(tuareg-font-lock-error-face ((t (:inherit error))))
