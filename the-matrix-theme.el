@@ -1,10 +1,10 @@
 ;;; the-matrix-theme.el --- Green-on-black dark theme inspired by "The Matrix" movie  -*- lexical-binding: t; -*-
 
-;; Copyright (C) 2021 Dan Dee
+;; Copyright (C) 2021–2022 Dan Dee
 
 ;; Author: Dan Dee <monkeyjunglejuice@pm.me>
 ;; URL: https://github.com/monkeyjunglejuice/matrix-emacs-theme
-;; Version: 0.1.0
+;; Version: 1.0.0
 ;; Package-Requires: ((emacs "26.1"))
 ;; Keywords: faces, theme
 ;; SPDX-License-Identifier: MIT
