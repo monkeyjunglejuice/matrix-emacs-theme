@@ -92,11 +92,33 @@ To disable this feature, simply set your ~fixed-pitch-serif~ to the same font as
 
 Non-exhaustive list of explicitly themed packages:
 
-- org
+- ansi colors
+- term colors
+- shell-script-mode
+- dired
+- proced
+- eshell
+- comint
+- completions/icomplete
+- diff
+- package manager
+- custom
+- info
+- message
+- erc
+- tex
+- outline
+- org-mode
+- org-tree-slide
+- compilation
+- whitespace
 - smartparens
-- rainbow-delimiters (actually used to make the parens less visible)
+- rainbow-delimiters (to make the parens /less/ visible)
 - paren-face
+- git-commit
 - magit
+- git-gutter-fringe
+- diff-hl
 - company
 - flymake
 - flycheck
@@ -106,11 +128,14 @@ Non-exhaustive list of explicitly themed packages:
 - css-mode
 - web-mode
 - slime
+- cider
+- clojure-mode
 - tuareg
 - merlin
 - merlin-eldoc
 - utop
 - selectrum
+- marginalia
 - consult
 - helm
 - adoc-mode
@@ -119,9 +144,6 @@ Non-exhaustive list of explicitly themed packages:
 - telega
 - beancount
 - w3m
-- elfeed
-- cider
-- clojure-mode
 
 ** Installation
 
