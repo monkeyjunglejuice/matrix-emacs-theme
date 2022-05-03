@@ -30,8 +30,6 @@
 ;; Colors
 (let* ((color-bg      "#000000")
        (color-bg-alt  "#011a0d")
-       (color-bg-red  "#330800")
-       (color-bg-blue "#001933")
        (color-hl      "#00ff7f")
        (color-bright  "#00ee76")
        (color-middle  "#00cd66")
@@ -39,7 +37,9 @@
        (color-dark    "#007338")
        (color-darker  "#004020")
        (color-red     "#cc2000")
-       (color-blue    "#007bff"))
+       (color-blue    "#007bff")
+       (color-bg-red  "#330800")
+       (color-bg-blue "#001933"))
 
   (custom-theme-set-faces
    'the-matrix
