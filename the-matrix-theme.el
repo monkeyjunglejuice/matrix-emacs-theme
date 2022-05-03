@@ -160,7 +160,7 @@
    `(custom-visibility ((t (:inherit custom-documentation :underline t))))
    `(custom-state ((t (:foreground ,color-red :slant italic))))
    `(custom-button ((t (:foreground ,color-bg :background ,color-fg))))
-   `(custom-button-mouse ((t (:foreground ,color-bg :background ,color-hl))))
+   `(custom-button-mouse ((t (:foreground ,color-hl :background ,color-dark))))
    `(custom-button-pressed ((t (:foreground ,color-hl :background ,color-darker))))
    `(custom-button-pressed-unraised ((t (:inherit custom-button-pressed))))
    `(custom-button-unraised ((t (:inherit custom-button))))
