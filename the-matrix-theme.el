@@ -18,10 +18,9 @@
 ;; it helps me focus. Syntax highlighting is implemented by different
 ;; font styles and a green base color which varies only in brightness
 ;; and luminosity, with additional clues in red and blue.
-
-;;; Credits:
-;; `the-matrix-theme' is based on my `giorgio-theme' which may be released
-;; after this one.
+;;
+;; Other themes:
+;; - "Nude Beach" https://github.com/monkeyjunglejuice/nude-beach-emacs-theme
 
 ;;; Code:
 
