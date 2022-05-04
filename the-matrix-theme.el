@@ -450,6 +450,14 @@
    `(helm-buffer-process ((t (:foreground ,color-dark))))
    `(helm-buffer-size ((t (:foreground ,color-dark))))
    `(helm-match ((t (:inherit completions-common-part))))
+   `(helm-bookmark-addressbook ((t (:inherit default))))
+   `(helm-bookmark-directory ((t (:inherit default))))
+   `(helm-bookmark-file ((t (:inherit default))))
+   `(helm-bookmark-file-not-found ((t (:inherit default))))
+   `(helm-bookmark-gnus ((t (:inherit default))))
+   `(helm-bookmark-info ((t (:inherit default))))
+   `(helm-bookmark-man ((t (:inherit default))))
+   `(helm-bookmark-w3m ((t (:inherit default))))
 
    ;; adoc-mode
    `(markup-meta-hide-face ((t (:height 1.0 :foreground ,color-bright))))
