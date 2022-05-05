@@ -441,6 +441,7 @@
    `(helm-ff-prefix ((t (:background nil))))
    `(helm-ff-dotted-directory ((t (:background nil :foreground ,color-middle))))
    `(helm-M-x-key ((t (:foreground ,color-bright))))
+   `(helm-M-x-short-doc ((t (:inherit font-lock-doc-face))))
    `(helm-buffer-file ((t (:foreground ,color-fg))))
    `(helm-buffer-archive ((t (:inherit helm-buffer-file))))
    `(helm-buffer-directory ((t (:inherit dired-directory))))
