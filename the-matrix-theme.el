@@ -366,6 +366,8 @@
    `(slime-repl-output-mouseover-face ((t (:foreground ,color-bright :box nil))))
    `(slime-repl-input-face ((t (:inherit default))))
    `(slime-repl-prompt ((t (:inherit minibuffer-prompt))))
+   `(slime-highlight-edits-face ((t (:inherit lazy-highlight))))
+   `(slime-highlight-face ((t (:inherit highlight))))
    `(slime-error-face ((t (:inherit error))))
    `(slime-warning-face ((t (:inherit warning))))
    `(slime-style-warning-face ((t (:inherit warning))))
