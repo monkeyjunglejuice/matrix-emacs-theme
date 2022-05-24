@@ -62,6 +62,7 @@
    `(link-visited ((t (:foreground ,color-fg :underline t))))
    `(button ((t (:inherit link))))
    `(help-face-button ((t (:inherit button))))
+   `(help-key-binding ((t (:foreground ,color-middle :background ,color-bg-alt :box (:color ,color-dark) :inherit fixed-pitch-serif))))
    `(header-line ((t (:foreground ,color-dark :background ,color-bg-alt))))
    `(shadow ((t (:foreground ,color-dark))))
    `(show-paren-match ((t (:foreground ,color-hl :weight bold :underline t))))
