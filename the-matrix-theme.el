@@ -57,7 +57,7 @@
    `(minibuffer-prompt ((t (:foreground ,color-bright :weight bold))))
    `(isearch ((t (:foreground ,color-hl :weight bold :underline t))))
    `(isearch-fail ((t (:inherit error))))
-   `(lazy-highlight ((t (:foreground ,color-hl :underline (:foreground ,color-hl)))))
+   `(lazy-highlight ((t (:foreground ,color-bright :underline (:color ,color-bright)))))
    `(link ((t (:foreground ,color-middle :underline t))))
    `(link-visited ((t (:foreground ,color-fg :underline t))))
    `(button ((t (:inherit link))))
