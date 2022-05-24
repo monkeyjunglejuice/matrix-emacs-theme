@@ -111,6 +111,7 @@
    ;; dired
    `(dired-header ((t (:foreground ,color-bright :slant italic))))
    `(dired-directory ((t (:weight bold))))
+   `(dired-broken-symlink ((t (:slant italic :inherit error))))
    `(dired-symlink ((t (:slant italic))))
    `(dired-mark ((t (:foreground ,color-hl :background ,color-darker))))
    `(dired-marked ((t (:foreground ,color-bright :background ,color-darker))))
