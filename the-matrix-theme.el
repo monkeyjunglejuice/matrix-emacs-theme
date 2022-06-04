@@ -128,8 +128,9 @@
    `(eshell-ls-directory ((t (:inherit dired-directory))))
    `(eshell-ls-archive ((t (:slant italic :inherit dired-directory))))
    `(eshell-ls-symlink ((t (:inherit dired-symlink))))
-   `(eshell-ls-executable ((t (:foreground ,color-middle))))
+   `(eshell-ls-executable ((t (:foreground ,color-bright))))
    `(eshell-ls-missing ((t (:inherit error))))
+   `(eshell-ls-product ((t (:foreground ,color-middle))))
    `(eshell-ls-readonly ((t (:inherit shadow))))
    `(eshell-ls-special ((t (:inherit dired-special))))
 
