@@ -204,5 +204,5 @@ I'm using this theme on a daily basis for writing OCaml, Lisp, Org, HTML and CSS
 
 ** Contribute
 
-If you have issues with the theme or something looks odd, please open an issue or send a pull request [[https://github.com/monkeyjunglejuice/matrix-emacs-theme/branches/all][using the 'devel' branch]]. You are very welcome to add support for further packages/modes. See also 'Current Status'
+If you have issues with the theme or something looks odd, please open an issue. You are very welcome to add support for further packages/modes. See also 'Current Status'
 
