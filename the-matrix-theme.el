@@ -377,6 +377,9 @@
    `(sldb-restartable-frame-line-face ((t (:inherit link))))
    `(sldb-section-face ((t (:foreground ,color-dark :weight bold))))
 
+   ;; geiser
+   `(geiser-font-lock-repl-output ((t (:foreground ,color-middle))))
+
    ;; cider
    `(cider-result-overlay-face ((t (:background ,color-bg-alt))))
    `(cider-fringe-good-face ((t (:foreground ,color-dark))))
