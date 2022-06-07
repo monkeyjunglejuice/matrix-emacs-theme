@@ -163,7 +163,7 @@
    `(custom-variable-obsolete ((t (:foreground ,color-dark :weight bold))))
    `(custom-documentation ((t (:inherit fixed-pitch-serif))))
    `(custom-visibility ((t (:inherit custom-documentation :underline t))))
-   `(custom-state ((t (:foreground ,color-red :slant italic))))
+   `(custom-state ((t (:foreground ,color-bright :slant italic))))
    `(custom-button ((t (:foreground ,color-bg :background ,color-fg))))
    `(custom-button-mouse ((t (:foreground ,color-hl :background ,color-dark))))
    `(custom-button-pressed ((t (:foreground ,color-hl :background ,color-darker))))
