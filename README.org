@@ -110,6 +110,7 @@ Non-exhaustive list of explicitly themed packages:
 - outline
 - org-mode
 - org-tree-slide
+- shortdoc
 - compilation
 - whitespace
 - smartparens

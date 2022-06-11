@@ -70,6 +70,7 @@
    `(highlight ((t (:foreground ,color-hl :weight bold :underline (:color ,color-hl)))))
    `(match ((t (:inherit highlight))))
    `(hl-line ((t (:underline (:color ,color-dark) :extend t))))
+   `(separator-line ((t (:height 0.1 :background ,color-darker))))
    `(widget-field ((t (:foreground ,color-bright :background ,color-bg-alt))))
    `(trailing-whitespace ((t (:background ,color-bg-red))))
    `(escape-glyph ((t (:inverse-video t))))
