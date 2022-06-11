@@ -236,6 +236,9 @@
    ;; org-tree-slide
    `(org-tree-slide-header-overlay-face ((t (:inherit font-lock-comment-face :foreground nil :background nil))))
 
+   ;; shortdoc
+   `(shortdoc-heading ((t (:inherit outline-1))))
+
    ;; compilation
    `(compilation-error ((t (:inherit error))))
    `(compilation-warning ((t (:inherit warning))))
