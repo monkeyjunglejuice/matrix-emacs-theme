@@ -368,8 +368,9 @@
    `(web-mode-html-attr-name-face ((t (:inherit shadow))))
    `(web-mode-css-selector-face ((t (:inherit css-selector))))
    `(web-mode-css-property-name-face ((t (:inherit css-property))))
-   `(web-mode-doctype-face ((t (:inherit shadow))))
    `(web-mode-css-color-face ((t (:foreground ,color-fg))))
+   `(web-mode-current-element-highlight-face ((t (:inherit lazy-highlight))))
+   `(web-mode-doctype-face ((t (:inherit shadow))))
 
    ;; slime
    `(slime-repl-inputed-output-face ((t (:foreground ,color-middle))))
