@@ -257,6 +257,7 @@
 
    ;; smartparens
    `(sp-pair-overlay-face ((t (:foreground ,color-bright :background ,color-bg-alt))))
+   `(sp-show-pair-match-content ((t (:inherit show-paren-match-expression))))
 
    ;; rainbow delimiters
    `(rainbow-delimiters-depth-1-face ((t (:foreground ,color-fg :weight light))))
