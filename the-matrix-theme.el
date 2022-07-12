@@ -162,17 +162,19 @@
    `(package-status-incompat ((t (:slant italic :inherit font-lock-warning-face))))
 
    ;; customization
-   `(custom-group-tag ((t (:inherit bold))))
-   `(custom-variable-tag ((t (:foreground ,color-fg :weight bold))))
-   `(custom-variable-obsolete ((t (:foreground ,color-dark :weight bold))))
-   `(custom-documentation ((t (:inherit fixed-pitch-serif))))
-   `(custom-visibility ((t (:inherit custom-documentation :underline t))))
-   `(custom-state ((t (:foreground ,color-bright :slant italic))))
    `(custom-button ((t (:foreground ,color-bg :background ,color-fg))))
    `(custom-button-mouse ((t (:foreground ,color-hl :background ,color-dark))))
    `(custom-button-pressed ((t (:foreground ,color-hl :background ,color-darker))))
    `(custom-button-pressed-unraised ((t (:inherit custom-button-pressed))))
    `(custom-button-unraised ((t (:inherit custom-button))))
+   `(custom-comment ((t (:inherit font-lock-doc-face))))
+   `(custom-comment-tag ((t (:inherit default))))
+   `(custom-documentation ((t (:inherit fixed-pitch-serif))))
+   `(custom-group-tag ((t (:inherit bold))))
+   `(custom-state ((t (:foreground ,color-bright :slant italic))))
+   `(custom-variable-tag ((t (:foreground ,color-fg :weight bold))))
+   `(custom-variable-obsolete ((t (:foreground ,color-dark :weight bold))))
+   `(custom-visibility ((t (:inherit custom-documentation :underline t))))
 
    ;; info
    `(info-node ((t (:foreground ,color-bright :weight bold :slant italic))))
