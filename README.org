@@ -129,6 +129,7 @@ Non-exhaustive list of explicitly themed packages:
 - css-mode
 - web-mode
 - slime
+- sly
 - geiser
 - cider
 - clojure-mode

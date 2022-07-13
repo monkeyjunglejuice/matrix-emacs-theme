@@ -390,6 +390,11 @@
    `(sldb-restartable-frame-line-face ((t (:inherit link))))
    `(sldb-section-face ((t (:foreground ,color-dark :weight bold))))
 
+   ;; sly
+   `(sly-mode-line ((t (:inherit mode-line))))
+   `(sly-mrepl-prompt-face ((t (:inherit minibuffer-prompt))))
+   `(sly-mrepl-output-face ((t (:foreground ,color-middle))))
+
    ;; geiser
    `(geiser-font-lock-repl-output ((t (:foreground ,color-middle))))
    `(geiser-font-lock-autodoc-identifier ((t (:inherit font-lock-keyword-face))))
