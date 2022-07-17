@@ -84,7 +84,7 @@
    `(font-lock-keyword-face ((t (:foreground ,color-bright))))
    `(font-lock-regexp-grouping-construct ((t (:foreground ,color-bright))))
    `(font-lock-regexp-grouping-backslash ((t (:foreground ,color-bright))))
-   `(font-lock-string-face ((t (:inherit fixed-pitch-serif))))
+   `(font-lock-string-face ((t (:background ,color-darker :inherit fixed-pitch-serif))))
    `(font-lock-type-face ((t (:weight bold))))
    `(font-lock-variable-name-face ((t (:foreground ,color-fg :slant italic))))
    `(font-lock-warning-face ((t (:foreground ,color-red :slant italic))))
