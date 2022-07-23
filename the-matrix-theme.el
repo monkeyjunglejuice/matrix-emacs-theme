@@ -246,9 +246,11 @@
    `(shortdoc-heading ((t (:inherit outline-1))))
 
    ;; compilation
-   `(compilation-error ((t (:inherit error))))
-   `(compilation-warning ((t (:inherit warning))))
-   `(compilation-info ((t (:foreground ,color-blue))))
+   `(compilation-error ((t (:foreground ,color-red))))
+   `(compilation-warning ((t (:foreground ,color-blue))))
+   `(compilation-info ((t (:foreground ,color-middle))))
+   `(compilation-line-number ((t (:inherit default :underline t))))
+   `(compilation-column-number ((t (:inherit default :underline t))))
 
    ;; whitespace
    `(whitespace-trailing ((t (:background ,color-bg-red))))
@@ -385,15 +387,28 @@
    `(slime-highlight-edits-face ((t (:underline (:color ,color-darker)))))
    `(slime-highlight-face ((t (:inherit highlight))))
    `(slime-error-face ((t (:inherit error))))
-   `(slime-warning-face ((t (:inherit warning))))
-   `(slime-style-warning-face ((t (:inherit warning))))
+   `(slime-warning-face ((t (:inherit flymake-warning))))
+   `(slime-style-warning-face ((t (:inherit flymake-warning))))
    `(sldb-restartable-frame-line-face ((t (:inherit link))))
    `(sldb-section-face ((t (:foreground ,color-dark :weight bold))))
 
    ;; sly
-   `(sly-mode-line ((t (:inherit mode-line))))
+   `(sly-db-topline-face ((t (:weight bold))))
+   `(sly-action-face ((t (:foreground ,color-bright))))
+   `(sly-mode-line ((t (:foreground ,color-middle))))
    `(sly-mrepl-prompt-face ((t (:inherit minibuffer-prompt))))
-   `(sly-mrepl-output-face ((t (:foreground ,color-middle))))
+   `(sly-mrepl-output-face ((t (:foreground ,color-fg))))
+   `(sly-mrepl-note-face ((t (:inherit font-lock-warning-face))))
+   `(sly-style-warning-face ((t (:inherit flymake-warning))))
+   `(sly-db-condition-face ((t (:foreground ,color-red :background ,color-bg-red :extend t))))
+   `(sly-db-restart-face ((t (:inherit package-description))))
+   `(sly-db-restart-number-face ((t (:foreground ,color-bright :weight bold))))
+   `(sly-db-section-face ((t (:inherit shadow))))
+   `(sly-db-frame-label-face ((t (:inherit shadow))))
+   `(sly-db-frame-line-face ((t (:foreground ,color-fg))))
+   `(sly-db-restartable-frame-line-face ((t (:weight bold))))
+   `(sly-db-local-name-face ((t (:slant italic))))
+   `(sly-part-button-face ((t (:foreground ,color-middle))))
 
    ;; geiser
    `(geiser-font-lock-repl-output ((t (:foreground ,color-middle))))
