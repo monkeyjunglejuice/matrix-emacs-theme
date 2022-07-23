@@ -140,7 +140,7 @@
 
    ;; comint
    `(comint-highlight-prompt ((t (:inherit minibuffer-prompt))))
-   `(comint-highlight-input ((t (:inherit default))))
+   `(comint-highlight-input ((t (:foreground ,color-fg))))
 
    ;; completions
    `(completions-common-part ((t (:foreground ,color-middle))))
@@ -168,7 +168,7 @@
    `(custom-button-pressed-unraised ((t (:inherit custom-button-pressed))))
    `(custom-button-unraised ((t (:inherit custom-button))))
    `(custom-comment ((t (:inherit font-lock-doc-face))))
-   `(custom-comment-tag ((t (:inherit default))))
+   `(custom-comment-tag ((t (:foreground ,color-fg))))
    `(custom-documentation ((t (:inherit fixed-pitch-serif))))
    `(custom-group-tag ((t (:inherit bold))))
    `(custom-state ((t (:foreground ,color-bright :slant italic))))
@@ -380,7 +380,7 @@
    ;; slime
    `(slime-repl-inputed-output-face ((t (:foreground ,color-middle))))
    `(slime-repl-output-mouseover-face ((t (:foreground ,color-bright :box nil))))
-   `(slime-repl-input-face ((t (:inherit default))))
+   `(slime-repl-input-face ((t (:foreground ,color-fg))))
    `(slime-repl-prompt ((t (:inherit minibuffer-prompt))))
    `(slime-highlight-edits-face ((t (:underline (:color ,color-darker)))))
    `(slime-highlight-face ((t (:inherit highlight))))
@@ -408,7 +408,7 @@
    `(cider-test-failure-face ((t (:inherit font-lock-warning-face))))
    `(cider-test-success-face ((t (:foreground ,color-middle :weight bold))))
    `(cider-repl-prompt-face ((t (:inherit minibuffer-prompt))))
-   `(cider-repl-stdout-face ((t (:inherit default))))
+   `(cider-repl-stdout-face ((t (:foreground ,color-fg))))
    `(cider-repl-stderr-face ((t (:inherit font-lock-warning-face))))
    `(cider-stacktrace-error-class-face ((t (:inherit font-lock-warning-face))))
    `(cider-error-highlight-face ((t (:inherit error))))
@@ -437,7 +437,7 @@
    `(merlin-eldoc-occurrences-face ((t (:inherit lazy-highlight))))
 
    ;; utop
-   `(utop-frozen ((t (:inherit default))))
+   `(utop-frozen ((t (:foreground ,color-fg))))
    `(utop-prompt ((t (:inherit minibuffer-prompt))))
    `(utop-error  ((t (:inherit error))))
 
@@ -463,7 +463,7 @@
    `(helm-source-header ((t (:inherit font-lock-comment-face :background unspecified :foreground unspecified))))
    `(helm-selection ((t (:inherit highlight))))
    `(helm-prefarg ((t (:foreground ,color-dark))))
-   `(helm-ff-file ((t (:inherit default))))
+   `(helm-ff-file ((t (:foreground ,color-fg))))
    `(helm-ff-directory ((t (:inherit dired-directory :foreground unspecified))))
    `(helm-ff-executable ((t (:inherit eshell-ls-executable :foreground unspecified))))
    `(helm-ff-file-extension ((t (:foreground nil :background nil))))
@@ -482,14 +482,14 @@
    `(helm-buffer-process ((t (:foreground ,color-dark))))
    `(helm-buffer-size ((t (:foreground ,color-dark))))
    `(helm-match ((t (:inherit completions-common-part))))
-   `(helm-bookmark-addressbook ((t (:inherit default))))
+   `(helm-bookmark-addressbook ((t (:foreground ,color-fg))))
    `(helm-bookmark-directory ((t (:inherit dired-directory))))
-   `(helm-bookmark-file ((t (:inherit default))))
-   `(helm-bookmark-file-not-found ((t (:inherit default :slant italic))))
-   `(helm-bookmark-gnus ((t (:inherit default))))
-   `(helm-bookmark-info ((t (:inherit default))))
-   `(helm-bookmark-man ((t (:inherit default))))
-   `(helm-bookmark-w3m ((t (:inherit default))))
+   `(helm-bookmark-file ((t (:foreground ,color-fg))))
+   `(helm-bookmark-file-not-found ((t (:foreground ,color-fg :slant italic))))
+   `(helm-bookmark-gnus ((t (:foreground ,color-fg))))
+   `(helm-bookmark-info ((t (:foreground ,color-fg))))
+   `(helm-bookmark-man ((t (:foreground ,color-fg))))
+   `(helm-bookmark-w3m ((t (:foreground ,color-fg))))
 
    ;; adoc-mode
    `(markup-meta-hide-face ((t (:height 1.0 :foreground ,color-bright))))
