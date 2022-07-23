@@ -46,7 +46,7 @@
    `(cursor ((t (:background ,color-bright))))
    `(region ((t (:foreground ,color-middle :background ,color-darker))))
    `(success ((t (:foreground ,color-middle :background ,color-darker :extend t))))
-   `(warning ((t (:foreground ,color-blue :background ,color-bg-blue :extend t))))
+   `(warning ((t (:foreground ,color-blue :background ,color-bg-blue))))
    `(error ((t (:foreground ,color-red :background ,color-bg-red :extend t))))
    `(secondary-selection ((t (:background ,color-bg-alt))))
    `(mode-line ((t (:foreground ,color-fg :box (:color ,color-fg)))))
