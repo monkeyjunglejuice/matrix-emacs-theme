@@ -344,7 +344,7 @@
    ;; flymake
    `(flymake-error ((t (:underline (:color ,color-red :style wave)))))
    `(flymake-warning ((t (:underline (:color ,color-blue :style wave)))))
-   `(flymake-note ((t (:underline (:color ,color-dark :style wave)))))
+   `(flymake-note ((t (:underline (:color ,color-middle :style wave)))))
 
    ;; flycheck
    `(flycheck-error ((t (:inherit flymake-error))))
