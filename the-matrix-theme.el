@@ -28,17 +28,18 @@
 
 ;; Colors
 (let* ((color-bg      "#000000")
-       (color-bg-alt  "#011a0d")
+       (color-bg-alt  "#01120a")
        (color-hl      "#00ff7f")
        (color-bright  "#00ee76")
        (color-middle  "#00cd66")
        (color-fg      "#00a250")
        (color-dark    "#007338")
        (color-darker  "#004020")
-       (color-red     "#cc2000")
+       (color-darkest "#011f0f")
+       (color-red     "#300800")
        (color-blue    "#007bff")
-       (color-bg-red  "#330800")
-       (color-bg-blue "#001933"))
+       (color-bg-red  "#2e0800")
+       (color-bg-blue "#00172e"))
 
   (custom-theme-set-faces
    'the-matrix
@@ -84,7 +85,7 @@
    `(font-lock-keyword-face ((t (:foreground ,color-bright))))
    `(font-lock-regexp-grouping-construct ((t (:foreground ,color-bright))))
    `(font-lock-regexp-grouping-backslash ((t (:foreground ,color-bright))))
-   `(font-lock-string-face ((t (:background ,color-darker :inherit fixed-pitch-serif))))
+   `(font-lock-string-face ((t (:background ,color-darkest :inherit fixed-pitch-serif))))
    `(font-lock-type-face ((t (:weight bold))))
    `(font-lock-variable-name-face ((t (:foreground ,color-fg :slant italic))))
    `(font-lock-warning-face ((t (:foreground ,color-red :slant italic))))
