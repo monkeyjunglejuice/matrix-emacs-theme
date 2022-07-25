@@ -341,18 +341,19 @@
    `(company-scrollbar-bg ((t (:inherit company-tooltip-scrollbar-track))))  ; obsolete
 
    ;; flymake
-   `(flymake-error ((t (:inherit error))))
-   `(flymake-warning ((t (:inherit warning))))
-   `(flymake-note ((t (:foreground ,color-blue))))
+   `(flymake-error ((t (:underline (:color ,color-red :style wave)))))
+   `(flymake-warning ((t (:underline (:color ,color-blue :style wave)))))
+   `(flymake-note ((t (:underline (:color ,color-dark :style wave)))))
 
    ;; flycheck
-   `(flycheck-error ((t (:inherit error))))
-   `(flycheck-fringe-error ((t (:inherit flycheck-error))))
-   `(flycheck-warning ((t (:inherit warning))))
-   `(flycheck-fringe-warning ((t (:inherit flycheck-warning))))
-   `(flycheck-info ((t (:foreground ,color-blue))))
-   `(flycheck-fringe-info ((t (:inherit flycheck-info))))
+   `(flycheck-error ((t (:inherit flymake-error))))
+   `(flycheck-warning ((t (:inherit flymake-warning))))
+   `(flycheck-info ((t (:inherit flymake-note))))
+   `(flycheck-fringe-error ((t (:inherit error))))
+   `(flycheck-fringe-warning ((t (:inherit warning))))
+   `(flycheck-fringe-info ((t (:inherit info))))
    `(flycheck-error-list-info ((t (:inherit flycheck-info))))
+   `(flycheck-error-list-filename ((t (:foreground ,color-fg))))
 
    ;; lsp
    `(lsp-headerline-breadcrumb-path-face ((t (:foreground ,color-dark))))
