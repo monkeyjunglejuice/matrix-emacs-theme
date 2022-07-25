@@ -77,7 +77,7 @@
    `(escape-glyph ((t (:inverse-video t))))
 
    `(font-lock-face ((t (:foreground ,color-middle))))
-   `(font-lock-builtin-face ((t (:foreground ,color-middle))))
+   `(font-lock-builtin-face ((t (:foreground ,color-middle :slant italic))))
    `(font-lock-comment-face ((t (:foreground ,color-dark :inherit fixed-pitch-serif))))
    `(font-lock-constant-face ((t (:foreground ,color-fg))))
    `(font-lock-doc-face ((t (:foreground ,color-dark :slant italic :inherit fixed-pitch-serif))))
