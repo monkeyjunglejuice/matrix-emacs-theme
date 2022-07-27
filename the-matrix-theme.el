@@ -24,7 +24,9 @@
 
 ;;; Code:
 
-(deftheme the-matrix "Unfortunately, no one can be told what The Matrix Theme is. You'll have to see it for yourself. --Morpheus")
+(deftheme the-matrix
+  "Unfortunately, no one can be told what The Matrix Theme is.
+You'll have to see it for yourself. --Morpheus")
 
 ;; Colors
 (let* ((color-bg      "#000000")
