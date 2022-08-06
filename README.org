@@ -106,6 +106,7 @@ Non-exhaustive list of explicitly themed packages:
 - info
 - message
 - erc
+- table
 - tex
 - outline
 - org-mode
