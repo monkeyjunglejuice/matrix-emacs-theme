@@ -101,7 +101,7 @@ Non-exhaustive list of explicitly themed packages:
 - comint
 - completions/icomplete
 - diff
-- package manager
+- package
 - custom
 - info
 - message
