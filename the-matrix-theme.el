@@ -76,7 +76,7 @@ You'll have to see it for yourself. --Morpheus")
    `(separator-line ((t (:height 0.1 :background ,color-darker))))
    `(widget-field ((t (:foreground ,color-bright :background ,color-bg-alt))))
    `(trailing-whitespace ((t (:background ,color-bg-red))))
-   `(escape-glyph ((t (:inverse-video t))))
+   `(escape-glyph ((t (:foreground ,color-bright :inherit font-lock-string-face))))
 
    `(font-lock-face ((t (:foreground ,color-middle))))
    `(font-lock-builtin-face ((t (:foreground ,color-middle :slant italic))))
