@@ -548,6 +548,9 @@ You'll have to see it for yourself. --Morpheus")
    `(notmuch-tag-unread-face ((t (:foreground ,color-bg :background ,color-dark))))
    `(notmuch-message-summary-face ((t (:foreground ,color-dark))))
 
+   ;; switch-window
+   `(switch-window-label ((t (:foreground ,color-bright :height 3.0))))
+
    ;; telega
    `(telega-msg-heading ((t (:foreground ,color-dark :background nil :inherit nil))))
    `(telega-msg-inline-reply ((t (:foreground ,color-bright :inherit nil))))
