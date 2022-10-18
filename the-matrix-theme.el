@@ -71,7 +71,7 @@ You'll have to see it for yourself. --Morpheus")
    `(show-paren-match ((t (:foreground ,color-hl :weight bold :underline t))))
    `(show-paren-mismatch ((t (:inherit error))))
    `(highlight ((t (:foreground ,color-hl :underline t))))
-   `(match ((t (:foreground ,color-bright :underline t))))
+   `(match ((t (:foreground ,color-bright))))
    `(hl-line ((t (:underline (:color ,color-dark) :extend t))))
    `(separator-line ((t (:height 0.1 :background ,color-darker))))
    `(widget-field ((t (:foreground ,color-bright :background ,color-bg-alt))))
@@ -146,7 +146,7 @@ You'll have to see it for yourself. --Morpheus")
    `(comint-highlight-input ((t (:foreground ,color-fg))))
 
    ;; completions
-   `(completions-common-part ((t (:foreground ,color-middle :weight bold))))
+   `(completions-common-part ((t (:weight bold))))
    `(icomplete-first-match ((t (:foreground ,color-hl :weight bold :underline t))))
 
    ;; diff
@@ -600,7 +600,7 @@ You'll have to see it for yourself. --Morpheus")
    `(rg-file-tag-face ((t (:foreground ,color-bright))))
    `(rg-filename-face ((t (:foreground ,color-bright :weight bold))))
    `(rg-line-number-face ((t (:inherit line-number))))
-   `(rg-match-face ((t (:inherit completions-common-part))))
+   `(rg-match-face ((t (:underline t :inherit match))))
 
    ;;wgrep
    `(wgrep-face ((t (:foreground ,color-red :background ,color-bg-red))))
