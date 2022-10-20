@@ -361,7 +361,7 @@ You'll have to see it for yourself. --Morpheus")
    `(flycheck-error-list-info ((t (:inherit flycheck-info))))
    `(flycheck-error-list-filename ((t (:foreground ,color-fg))))
 
-   ;; lsp
+   ;; lsp-mode
    `(lsp-headerline-breadcrumb-path-face ((t (:foreground ,color-dark))))
    `(lsp-headerline-breadcrumb-path-error-face ((t (:inherit error))))
    `(lsp-headerline-breadcrumb-separator-face ((t (:foreground ,color-dark))))
@@ -370,10 +370,10 @@ You'll have to see it for yourself. --Morpheus")
    `(eglot-mode-line ((t (:foreground ,color-fg :weight bold))))
    `(eglot-highlight-symbol-face ((t (:inherit lazy-highlight))))
 
-   ;; csv
+   ;; csv-mode
    `(csv-separator-face ((t (:foreground ,color-middle))))
 
-   ;; css
+   ;; css-mode
    `(css-selector ((t (:weight bold))))
    `(css-property ((t (:inherit font-lock-builtin-face))))
 

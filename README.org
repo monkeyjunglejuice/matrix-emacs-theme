@@ -96,13 +96,14 @@ Non-exhaustive list of explicitly themed packages:
 - term colors
 - shell-script-mode
 - dired
+- eldoc
 - proced
 - eshell
 - comint
 - completions/icomplete
 - diff
 - package
-- custom
+- customization
 - info
 - message
 - erc
@@ -145,9 +146,13 @@ Non-exhaustive list of explicitly themed packages:
 - adoc-mode
 - highlight-indent-guides
 - notmuch
+- switch-window
 - telega
 - beancount
 - w3m
+- elfeed
+- rg
+- wgrep
 
 ** Installation
 
