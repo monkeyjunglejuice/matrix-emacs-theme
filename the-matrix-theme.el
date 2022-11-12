@@ -157,10 +157,11 @@ You'll have to see it for yourself. --Morpheus")
    `(diff-header ((t (:background ,color-hl :foreground ,color-fg))))
 
    ;; package
-   `(package-name ((t (:inherit link))))
-   `(package-description ((t (:slant italic :inherit fixed-pitch-serif))))
-   `(package-status-installed ((t (:foreground ,color-fg))))
-   `(package-status-dependency ((t (:foreground ,color-fg :slant italic))))
+   `(package-name ((t (:weight bold :underline t))))
+   `(package-description ((t (:inherit fixed-pitch-serif))))
+   `(package-status-available ((t (:slant italic))))
+   `(package-status-installed ((t (:foreground ,color-blue :slant italic))))
+   `(package-status-dependency ((t (:foreground ,color-dark :slant italic))))
    `(package-status-built-in ((t (:foreground ,color-dark :slant italic))))
    `(package-status-incompat ((t (:slant italic :inherit font-lock-warning-face))))
 
