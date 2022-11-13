@@ -157,7 +157,7 @@ You'll have to see it for yourself. --Morpheus")
    `(diff-header ((t (:background ,color-hl :foreground ,color-fg))))
 
    ;; package
-   `(package-name ((t (:weight bold :underline t))))
+   `(package-name ((t (:weight bold))))
    `(package-description ((t (:inherit fixed-pitch-serif))))
    `(package-status-available ((t (:slant italic))))
    `(package-status-installed ((t (:foreground ,color-blue :slant italic))))
