@@ -415,7 +415,7 @@ You'll have to see it for yourself. --Morpheus")
    `(sly-db-section-face ((t (:inherit shadow))))
    `(sly-db-frame-label-face ((t (:inherit shadow))))
    `(sly-db-frame-line-face ((t (:foreground ,color-fg))))
-   `(sly-db-restartable-frame-line-face ((t (:weight bold))))
+   `(sly-db-restartable-frame-line-face ((t (:foreground ,color-middle :weight bold))))
    `(sly-db-local-name-face ((t (:slant italic))))
    `(sly-part-button-face ((t (:foreground ,color-middle))))
 
