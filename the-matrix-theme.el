@@ -466,6 +466,11 @@ You'll have to see it for yourself. --Morpheus")
    `(utop-prompt ((t (:inherit minibuffer-prompt))))
    `(utop-error  ((t (:inherit error))))
 
+   ;; haskell-mode
+   `(haskell-operator-face ((t (:foreground ,color-middle))))
+   `(haskell-warning-face ((t (:inherit flymake-warning))))
+   `(haskell-interactive-face-compile-warning ((t (:inherit compilation-warning))))
+
    ;; selectrum
    `(selectrum-mouse-highlight ((t (:background nil :underline t :extend t))))
    `(selectrum-prescient-primary-highlight ((t (:inherit completions-common-part))))
