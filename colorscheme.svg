@@ -8,7 +8,7 @@
    version="1.1"
    id="svg8"
    inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
-   sodipodi:docname="colorscheme2.svg"
+   sodipodi:docname="colorscheme.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -58,8 +58,8 @@
      inkscape:snap-text-baseline="true"
      inkscape:snap-object-midpoints="true"
      inkscape:snap-global="true"
-     inkscape:snap-others="false"
-     inkscape:snap-nodes="false"
+     inkscape:snap-others="true"
+     inkscape:snap-nodes="true"
      inkscape:snap-grids="false"
      inkscape:snap-to-guides="false" />
   <metadata
@@ -94,6 +94,14 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(0,-87)">
+    <rect
+       style="fill:#010503;fill-opacity:1;stroke:none;stroke-width:19.7498;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.949367;paint-order:normal"
+       id="rect892-9-36"
+       width="297"
+       height="210.18553"
+       x="-1.0658141e-14"
+       y="86.814468"
+       inkscape:label="color-bg-alt" />
     <rect
        style="fill:#00b25f;fill-opacity:1;stroke:none;stroke-width:3;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.949367;paint-order:normal"
        id="rect892-6-7"
@@ -473,5 +481,13 @@
          x="145.71184"
          y="125.08194"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:monospace;-inkscape-font-specification:monospace;fill:#00733d;fill-opacity:1;stroke-width:0.264583">color-bg-alt</tspan></text>
+    <rect
+       style="mix-blend-mode:color-burn;fill:#00b462;fill-opacity:0.0868548;stroke:none;stroke-width:4.26107;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.949367;paint-order:normal"
+       id="rect892-9-36-5"
+       width="13.825"
+       height="210.18553"
+       x="233.70758"
+       y="87"
+       inkscape:label="color-bg-alt" />
   </g>
 </svg>
