@@ -135,6 +135,7 @@ You'll have to see it for yourself. --Morpheus")
 
    ;; eshell
    `(eshell-prompt ((t (:inherit minibuffer-prompt))))
+   `(eshell-ls-backup ((t (:inherit dired-ignored))))
    `(eshell-ls-directory ((t (:inherit dired-directory))))
    `(eshell-ls-archive ((t (:slant italic :inherit dired-directory))))
    `(eshell-ls-symlink ((t (:inherit dired-symlink))))
