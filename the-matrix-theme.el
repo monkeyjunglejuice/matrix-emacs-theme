@@ -429,7 +429,7 @@ You'll have to see it for yourself. --Morpheus")
    ;; geiser
    `(geiser-font-lock-repl-output ((t (:foreground ,color-middle))))
    `(geiser-font-lock-autodoc-identifier ((t (:inherit font-lock-keyword-face))))
-   `(geiser-font-lock-autodoc-current-arg ((t (:inherit highlight))))
+   `(geiser-font-lock-autodoc-current-arg ((t (:inherit eldoc-highlight-function-argument))))
 
    ;; cider
    `(cider-result-overlay-face ((t (:background ,color-bg-alt))))
