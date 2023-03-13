@@ -28,7 +28,7 @@
   "Unfortunately, no one can be told what The Matrix Theme is.
 You'll have to see it for yourself. --Morpheus")
 
-;; Colors
+;; colors
 (let* ((color-bg      "#000000")
        (color-bg-alt  "#01120a")
        (color-bg-red  "#30000c")
