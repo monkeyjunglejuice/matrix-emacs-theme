@@ -127,7 +127,7 @@ You'll have to see it for yourself. --Morpheus")
    `(dired-special ((t (:foreground ,color-middle))))
 
    ;; eldoc
-   `(eldoc-highlight-function-argument ((t (:inherit highlight))))
+   `(eldoc-highlight-function-argument ((t (:inherit lazy-highlight))))
 
    ;; proced
    `(proced-mark ((t (:inherit dired-mark))))
