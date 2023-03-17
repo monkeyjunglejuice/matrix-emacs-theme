@@ -96,6 +96,7 @@ Non-exhaustive list of explicitly themed packages:
 - term colors
 - shell-script-mode
 - dired
+- dired-subtree
 - eldoc
 - proced
 - eshell
