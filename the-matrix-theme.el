@@ -480,6 +480,8 @@ You'll have to see it for yourself. --Morpheus")
    `(utop-frozen ((t (:foreground ,color-fg))))
    `(utop-prompt ((t (:inherit minibuffer-prompt))))
    `(utop-error  ((t (:inherit error))))
+   `(utop-stderr ((t (:inherit font-lock-warning-face))))
+   `(utop-stdout ((t (:inherit tuareg-font-lock-interactive-output-face))))
 
    ;; haskell-mode
    `(haskell-operator-face ((t (:foreground ,color-middle))))
