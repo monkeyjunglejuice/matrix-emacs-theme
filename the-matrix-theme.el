@@ -624,10 +624,16 @@ You'll have to see it for yourself. --Morpheus")
    `(rg-line-number-face ((t (:inherit line-number))))
    `(rg-match-face ((t (:underline t :inherit match))))
 
-   ;;wgrep
+   ;; wgrep
    `(wgrep-face ((t (:foreground ,color-red :background ,color-bg-red))))
    `(wgrep-file-face ((t (:background ,color-bg-blue))))
    `(wgrep-done-face ((t (:inherit wgrep-file-face))))
+
+   ;; orderless
+   `(orderless-match-face-0 ((t (:inherit match))))
+   `(orderless-match-face-1 ((t (:inherit match :foreground ,color-middle))))
+   `(orderless-match-face-2 ((t (:inherit match :foreground ,color-middle))))
+   `(orderless-match-face-3 ((t (:inherit match :foreground ,color-middle))))
 
    ))
 
