@@ -73,7 +73,7 @@ You'll have to see it for yourself. --Morpheus")
    `(show-paren-mismatch ((t (:inherit error))))
    `(highlight ((t (:background ,color-darker :underline (:color ,color-hl)))))
    ;; `(highlight ((t (:inverse-video t))))
-   `(match ((t (:foreground ,color-bright))))
+   `(match ((t (:foreground ,color-bright :weight bold))))
    `(hl-line ((t (:underline (:color ,color-dark) :extend t))))
    `(separator-line ((t (:height 0.1 :background ,color-darker))))
    `(widget-field ((t (:foreground ,color-bright :background ,color-bg-alt))))
@@ -158,7 +158,7 @@ You'll have to see it for yourself. --Morpheus")
    `(comint-highlight-input ((t (:foreground ,color-fg))))
 
    ;; completions
-   `(completions-common-part ((t (:weight bold))))
+   `(completions-common-part ((t (:inherit match))))
    `(icomplete-first-match ((t (:foreground ,color-hl :weight bold :underline t))))
 
    ;; diff
