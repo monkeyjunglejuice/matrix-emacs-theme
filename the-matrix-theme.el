@@ -466,7 +466,10 @@ You'll have to see it for yourself. --Morpheus")
    `(tuareg-font-lock-interactive-directive-face ((t (:foreground ,color-middle))))
    `(tuareg-font-lock-line-number-face ((t (:inherit linum))))
    `(tuareg-font-lock-module-face ((t (:inherit shadow))))
-   `(tuareg-font-lock-operator-face ((t (:foreground ,color-middle))))
+   `(tuareg-font-lock-operator-face ((t (:foreground ,color-middle :weight bold))))
+
+   ;; caml
+   `(ocaml-help-face ((t (:inherit lazy-highlight))))
 
    ;; merlin
    `(merlin-compilation-error-face ((t (:inherit error))))
