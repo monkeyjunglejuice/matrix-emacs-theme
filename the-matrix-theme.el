@@ -483,7 +483,7 @@ You'll have to see it for yourself. --Morpheus")
    `(utop-stdout ((t (:inherit tuareg-font-lock-interactive-output-face))))
 
    ;; haskell-mode
-   `(haskell-operator-face ((t (:foreground ,color-middle))))
+   `(haskell-operator-face ((t (:foreground ,color-middle :weight bold))))
    `(haskell-warning-face ((t (:inherit flymake-warning))))
    `(haskell-interactive-face-compile-warning ((t (:inherit compilation-warning))))
 
