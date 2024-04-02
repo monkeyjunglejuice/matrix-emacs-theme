@@ -467,7 +467,7 @@ You'll have to see it for yourself. --Morpheus")
    `(tuareg-font-lock-interactive-directive-face ((t (:foreground ,color-middle))))
    `(tuareg-font-lock-line-number-face ((t (:inherit linum))))
    `(tuareg-font-lock-module-face ((t (:inherit shadow))))
-   `(tuareg-font-lock-operator-face ((t (:foreground ,color-middle :weight bold))))
+   `(tuareg-font-lock-operator-face ((t (:inherit font-lock-operator-face))))
 
    ;; caml
    `(ocaml-help-face ((t (:inherit lazy-highlight))))
@@ -487,7 +487,7 @@ You'll have to see it for yourself. --Morpheus")
    `(utop-stdout ((t (:inherit tuareg-font-lock-interactive-output-face))))
 
    ;; haskell-mode
-   `(haskell-operator-face ((t (:foreground ,color-middle :weight bold))))
+   `(haskell-operator-face ((t (:inherit font-lock-operator-face))))
    `(haskell-warning-face ((t (:inherit flymake-warning))))
    `(haskell-interactive-face-compile-warning ((t (:inherit compilation-warning))))
 
