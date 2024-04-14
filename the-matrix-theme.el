@@ -96,8 +96,15 @@ You'll have to see it for yourself. --Morpheus")
    `(font-lock-variable-name-face ((t (:foreground ,color-fg))))
    `(font-lock-warning-face ((t (:foreground ,color-red :slant italic))))
 
-   ;; ansi colors
-   `(ansi-color-names-vector [,color-bg ,color-red ,color-middle ,color-middle ,color-blue ,color-middle ,color-middle ,color-fg])
+   ;; ansi-colors
+   `(ansi-color-black ((t (:foreground ,color-dark :background ,color-dark))))
+   `(ansi-color-red ((t (:foreground ,color-red :background ,color-red))))
+   `(ansi-color-green ((t (:foreground ,color-bright :background ,color-bright))))
+   `(ansi-color-yellow ((t (:foreground ,color-bright :background ,color-bright))))
+   `(ansi-color-blue ((t (:foreground ,color-blue :background ,color-blue))))
+   `(ansi-color-magenta ((t (:foreground ,color-middle :background ,color-middle))))
+   `(ansi-color-cyan ((t (:foreground ,color-middle :background ,color-middle))))
+   `(ansi-color-white ((t (:foreground ,color-fg :background ,color-fg))))
 
    ;; term colors
    `(term ((t (:inherit default))))
