@@ -359,8 +359,8 @@ You'll have to see it for yourself. --Morpheus")
    `(company-preview-common ((t (:foreground ,color-fg :background unspecified))))
    `(company-tooltip-search ((t (:inherit lazy-highlight))))
    `(company-tooltip-search-selection ((t (:inherit company-tooltip-search))))
-   `(company-tooltip ((t (:foreground ,color-bright :background ,color-darker))))
-   `(company-tooltip-annotation ((t (:foreground ,color-middle))))
+   `(company-tooltip ((t (:foreground ,color-middle :background ,color-darkest))))
+   `(company-tooltip-annotation ((t (:foreground ,color-fg))))
    `(company-tooltip-annotation-selection ((t (:weight normal))))
    `(company-tooltip-common ((t (:foreground ,color-fg))))
    `(company-tooltip-common-selection ((t (:foreground ,color-middle))))
@@ -369,6 +369,15 @@ You'll have to see it for yourself. --Morpheus")
    `(company-tooltip-scrollbar-track ((t (:background ,color-darker))))
    `(company-scrollbar-fg ((t (:inherit company-tooltip-scrollbar-thumb))))  ; obsolete
    `(company-scrollbar-bg ((t (:inherit company-tooltip-scrollbar-track))))  ; obsolete
+
+   ;; corfu
+   `(corfu-annotations ((t (:foreground ,color-fg :slant normal :inherit completions-annotations))))
+   `(corfu-bar ((t (:background ,color-bright))))
+   `(corfu-border ((t (:background ,color-darker))))
+   `(corfu-current ((t (:inherit highlight))))
+   `(corfu-default ((t (:background ,color-darkest))))
+   `(corfu-deprecated ((t (:strike-through t :inherit shadow))))
+   `(corfu-popupinfo ((t (:background ,color-darkest))))
 
    ;; flymake
    `(flymake-error ((t (:underline (:color ,color-red :style wave)))))
