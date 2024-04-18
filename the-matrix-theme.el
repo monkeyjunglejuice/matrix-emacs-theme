@@ -595,6 +595,7 @@ You'll have to see it for yourself. --Morpheus")
    `(notmuch-message-summary-face ((t (:foreground ,color-dark))))
 
    ;; switch-window
+   `(switch-window-background ((t (:foreground ,color-darker))))
    `(switch-window-label ((t (:foreground ,color-bright :height 3.0))))
 
    ;; telega
