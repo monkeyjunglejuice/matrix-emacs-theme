@@ -4,7 +4,7 @@
 
 ;; Author: Dan Dee <monkeyjunglejuice@pm.me>
 ;; URL: https://github.com/monkeyjunglejuice/matrix-emacs-theme
-;; Version: 1.2
+;; Version: 1.3
 ;; Package-Requires: ((emacs "26.1"))
 ;; Keywords: faces, theme
 ;; SPDX-License-Identifier: MIT
@@ -278,8 +278,10 @@ You'll have to see it for yourself. --Morpheus")
    ;; compilation
    `(compilation-error ((t (:foreground ,color-red))))
    `(compilation-warning ((t (:foreground ,color-blue))))
-   `(compilation-info ((t (:foreground ,color-middle))))
+   `(compilation-info ((t (:foreground ,color-bright))))
    `(compilation-line-number ((t (:inherit default :underline t))))
+   `(compilation-mode-line-fail ((t (:foreground ,color-red))))
+   `(compilation-mode-line-exit ((t (:foreground ,color-blue))))
    `(compilation-column-number ((t (:inherit default :underline t))))
 
    ;; whitespace
