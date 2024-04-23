@@ -4,7 +4,7 @@
 
 ;; Author: Dan Dee <monkeyjunglejuice@pm.me>
 ;; URL: https://github.com/monkeyjunglejuice/matrix-emacs-theme
-;; Version: 1.3
+;; Version: 1.4
 ;; Package-Requires: ((emacs "26.1"))
 ;; Keywords: faces, theme
 ;; SPDX-License-Identifier: MIT
@@ -661,6 +661,9 @@ You'll have to see it for yourself. --Morpheus")
    `(orderless-match-face-1 ((t (:inherit match :foreground ,color-middle))))
    `(orderless-match-face-2 ((t (:inherit match :foreground ,color-middle))))
    `(orderless-match-face-3 ((t (:inherit match :foreground ,color-middle))))
+
+   ;; yasnippet
+   `(yas-field-highlight-face ((t (:inherit lazy-highlight))))
 
    ))
 
