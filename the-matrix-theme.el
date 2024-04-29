@@ -276,13 +276,13 @@ You'll have to see it for yourself. --Morpheus")
    `(shortdoc-heading ((t (:inherit outline-1))))
 
    ;; compilation
+   `(compilation-column-number ((t (:foreground ,color-hl :underline t))))
    `(compilation-error ((t (:foreground ,color-red))))
-   `(compilation-warning ((t (:foreground ,color-blue))))
    `(compilation-info ((t (:foreground ,color-bright))))
-   `(compilation-line-number ((t (:inherit default :underline t))))
+   `(compilation-line-number ((t (:foreground ,color-hl :weight bold :underline t))))
    `(compilation-mode-line-fail ((t (:foreground ,color-red))))
    `(compilation-mode-line-exit ((t (:foreground ,color-blue))))
-   `(compilation-column-number ((t (:inherit default :underline t))))
+   `(compilation-warning ((t (:foreground ,color-blue))))
 
    ;; whitespace
    `(whitespace-trailing ((t (:background ,color-bg-red))))
