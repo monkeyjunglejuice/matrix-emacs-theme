@@ -1,10 +1,10 @@
 ;;; the-matrix-theme.el --- Green-on-black dark theme inspired by "The Matrix" movie -*- lexical-binding: t; -*-
 
-;; Copyright (C) 2021–2024 Dan Dee
+;; Copyright (C) 2021–2025 Dan Dee
 
 ;; Author: Dan Dee <monkeyjunglejuice@pm.me>
 ;; URL: https://github.com/monkeyjunglejuice/matrix-emacs-theme
-;; Version: 1.4
+;; Version: 1.4.1
 ;; Package-Requires: ((emacs "26.1"))
 ;; Keywords: faces, theme
 ;; SPDX-License-Identifier: MIT
@@ -12,6 +12,7 @@
 ;; This file is not part of GNU Emacs.
 
 ;;; Commentary:
+;;
 ;; "Unfortunately, no one can be told what The Matrix Theme is.
 ;; You'll have to see it for yourself." --Morpheus
 ;; I've made this almost monochrome green-on-black theme, because
@@ -20,8 +21,8 @@
 ;; and luminosity, with additional clues in red and blue.
 ;;
 ;; Other themes:
-;; - "Beach Bar" https://github.com/monkeyjunglejuice/beach-bar-emacs-theme
-
+;; - "Beach" <https://github.com/monkeyjunglejuice/beach-emacs-theme>
+;;
 ;;; Code:
 
 (deftheme the-matrix
