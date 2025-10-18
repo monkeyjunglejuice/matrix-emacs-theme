@@ -124,7 +124,7 @@ You'll have to see it for yourself. --Morpheus")
    `(term-underline ((t (:underline t))))
 
    ;; shell-script-mode
-   `(sh-heredoc ((t (:foreground nil :inherit font-lock-string-face))))
+   `(sh-heredoc ((t (:foreground unspecified :inherit font-lock-string-face))))
    `(sh-quoted-exec ((t (:inherit font-lock-function-name-face))))
 
    ;; dired
@@ -289,7 +289,7 @@ You'll have to see it for yourself. --Morpheus")
    `(org-verbatim ((t (:inherit font-lock-string-face))))
 
    ;; org-tree-slide
-   `(org-tree-slide-header-overlay-face ((t (:inherit font-lock-comment-face :foreground nil :background unspecified))))
+   `(org-tree-slide-header-overlay-face ((t (:inherit font-lock-comment-face :foreground unspecified :background unspecified))))
 
    ;; shortdoc
    `(shortdoc-heading ((t (:inherit outline-1))))
@@ -445,7 +445,7 @@ You'll have to see it for yourself. --Morpheus")
 
    ;; slime
    `(slime-repl-inputed-output-face ((t (:foreground ,color-middle))))
-   `(slime-repl-output-mouseover-face ((t (:foreground ,color-bright :box nil))))
+   `(slime-repl-output-mouseover-face ((t (:foreground ,color-bright :box unspecified))))
    `(slime-repl-input-face ((t (:foreground ,color-fg))))
    `(slime-repl-prompt ((t (:inherit minibuffer-prompt))))
    `(slime-highlight-edits-face ((t (:underline (:color ,color-darker)))))
@@ -536,9 +536,9 @@ You'll have to see it for yourself. --Morpheus")
    `(selectrum-prescient-primary-highlight ((t (:inherit completions-common-part))))
 
    ;; marginalia
-   `(marginalia-archive ((t (:inherit nil))))
-   `(marginalia-key ((t (:inherit nil))))
-   `(marginalia-number ((t (:inherit nil))))
+   `(marginalia-archive ((t (:inherit unspecified))))
+   `(marginalia-key ((t (:inherit unspecified))))
+   `(marginalia-number ((t (:inherit unspecified))))
    `(marginalia-file-priv-dir ((t (:weight bold))))
    `(marginalia-file-priv-read ((t (:foreground ,color-fg))))
    `(marginalia-file-priv-write ((t (:foreground ,color-red))))
@@ -546,7 +546,7 @@ You'll have to see it for yourself. --Morpheus")
 
    ;; consult
    `(consult-preview-line ((t (:inherit highlight))))
-   `(consult-preview-cursor ((t (:background ,color-bg :underline nil))))
+   `(consult-preview-cursor ((t (:background ,color-bg :underline unspecified))))
 
    ;; helm
    `(helm-candidate-number ((t (:foreground ,color-dark :background unspecified))))
@@ -559,7 +559,7 @@ You'll have to see it for yourself. --Morpheus")
    `(helm-ff-file ((t (:foreground ,color-fg))))
    `(helm-ff-directory ((t (:inherit dired-directory :foreground unspecified))))
    `(helm-ff-executable ((t (:inherit eshell-ls-executable :foreground unspecified))))
-   `(helm-ff-file-extension ((t (:foreground nil :background unspecified))))
+   `(helm-ff-file-extension ((t (:foreground unspecified :background unspecified))))
    `(helm-ff-invalid-symlink ((t (:slant italic :inherit error))))
    `(helm-ff-symlink ((t (:inherit dired-symlink))))
    `(helm-ff-prefix ((t (:background unspecified))))
@@ -593,13 +593,13 @@ You'll have to see it for yourself. --Morpheus")
    ;; adoc-mode
    `(markup-code-face ((t (:inherit markup-verbatim-face))))
    `(markup-complex-replacement-face ((t (:background ,color-hl :foreground ,color-fg))))
-   `(markup-gen-face ((t (:inherit default :foreground nil))))
+   `(markup-gen-face ((t (:inherit default :foreground unspecified))))
    `(markup-list-face ((t (:weight bold))))
-   `(markup-meta-face ((t (:height 1.0 :foreground ,color-dark :family nil))))
+   `(markup-meta-face ((t (:height 1.0 :foreground ,color-dark :family unspecified))))
    `(markup-meta-hide-face ((t (:height 1.0 :foreground ,color-bright))))
    `(markup-passthrough-face ((t (:inherit markup-dark))))
-   `(markup-reference-face ((t (:underline nil :foreground ,color-dark))))
-   `(markup-replacement-face ((t (:family nil :foreground ,color-dark))))
+   `(markup-reference-face ((t (:underline unspecified :foreground ,color-dark))))
+   `(markup-replacement-face ((t (:family unspecified :foreground ,color-dark))))
    `(markup-secondary-text-face ((t (:height 1.0 :foreground ,color-dark))))
    `(markup-table-cell-face ((t (:inherit table-cell))))
    `(markup-title-0-face ((t (:height 1.2 :inherit markup-gen-face))))
@@ -608,7 +608,7 @@ You'll have to see it for yourself. --Morpheus")
    `(markup-title-3-face ((t (:height 1.0 :inherit markup-gen-face))))
    `(markup-title-4-face ((t (:height 1.0 :inherit markup-gen-face))))
    `(markup-title-5-face ((t (:height 1.0 :inherit markup-gen-face))))
-   `(markup-typewriter-face ((t (:inherit nil))))
+   `(markup-typewriter-face ((t (:inherit unspecified))))
    `(markup-verbatim-face ((t (:foreground ,color-dark :inherit fixed-pitch-serif))))
 
    ;; highlight-indent-guides
@@ -629,12 +629,12 @@ You'll have to see it for yourself. --Morpheus")
    `(switch-window-label ((t (:foreground ,color-bright :height 3.0))))
 
    ;; telega
-   `(telega-msg-heading ((t (:foreground ,color-dark :background unspecified :inherit nil))))
-   `(telega-msg-inline-reply ((t (:foreground ,color-bright :inherit nil))))
-   `(telega-entity-type-texturl ((t (:inherit nil :foreground ,color-dark))))
+   `(telega-msg-heading ((t (:foreground ,color-dark :background unspecified :inherit unspecified))))
+   `(telega-msg-inline-reply ((t (:foreground ,color-bright :inherit unspecified))))
+   `(telega-entity-type-texturl ((t (:inherit unspecified :foreground ,color-dark))))
 
    ;; beancount
-   `(beancount-date ((t (:inherit italic :foreground nil))))
+   `(beancount-date ((t (:inherit italic :foreground unspecified))))
    `(beancount-account ((t (:inherit default))))
 
    ;; w3m
