@@ -173,7 +173,7 @@ You'll have to see it for yourself. --Morpheus")
    `(diff-added ((t (:foreground ,color-blue :background ,color-bg-blue))))
    `(diff-removed ((t (:foreground ,color-red :background ,color-bg-red))))
    `(diff-context ((t (:inherit shadow))))
-   `(diff-file-header ((t (:bold t :background ,color-hl :weight bold))))
+   `(diff-file-header ((t (:background ,color-hl :weight bold))))
    `(diff-header ((t (:background ,color-hl :foreground ,color-fg))))
 
    ;; package
