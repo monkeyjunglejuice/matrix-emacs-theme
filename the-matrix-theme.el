@@ -666,6 +666,8 @@ You'll have to see it for yourself. --Morpheus")
    ;; yasnippet
    `(yas-field-highlight-face ((t (:inherit lazy-highlight))))
 
+   ;; hl-todo
+   `(hl-todo ((t (:inherit font-lock-comment-face))))
    ))
 
 ;;;###autoload
