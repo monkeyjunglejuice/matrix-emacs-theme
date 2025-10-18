@@ -1,4 +1,4 @@
-;;; the-matrix-theme.el --- Green-on-black dark theme inspired by "The Matrix" movie  -*- lexical-binding: t; -*-
+;;; the-matrix-theme.el --- Green-on-black dark theme inspired by "The Matrix" movie -*- lexical-binding: t; -*-
 
 ;; Copyright (C) 2021–2024 Dan Dee
 
