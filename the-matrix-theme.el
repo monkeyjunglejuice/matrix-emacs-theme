@@ -233,7 +233,7 @@ You'll have to see it for yourself. --Morpheus")
    ;; table
    `(table-cell ((t (:foreground ,color-fg :background ,color-bg-alt))))
 
-   ;; tab-bar and tab-line
+   ;; tabs
    `(tab-bar ((t (:foreground ,color-darker :background ,color-bg-alt :box (:color ,color-bg-alt)))))
    `(tab-bar-tab ((t (:inherit tab-bar :foreground ,color-dark :background ,color-bg-alt))))
    `(tab-bar-tab-group-current ((t (:foreground ,color-fg))))
