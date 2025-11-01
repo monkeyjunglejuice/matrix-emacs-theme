@@ -44,6 +44,24 @@ You'll have to see it for yourself. --Morpheus")
        (color-red     "#cc0037")
        (color-blue    "#0081c7"))
 
+  (custom-theme-set-variables
+   'the-matrix
+
+   `(frame-background-mode 'dark)
+
+   `(ansi-color-bold-is-bright t)
+
+   `(ansi-color-names-vector
+     [,color-dark   ; black
+      ,color-red    ; red
+      ,color-bright ; green
+      ,color-bright ; yellow
+      ,color-blue   ; blue
+      ,color-middle ; magenta
+      ,color-middle ; cyan
+      ,color-fg]    ; white
+     ))
+
   (custom-theme-set-faces
    'the-matrix
 
