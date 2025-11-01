@@ -48,9 +48,7 @@ You'll have to see it for yourself. --Morpheus")
    'the-matrix
 
    `(frame-background-mode 'dark)
-
    `(ansi-color-bold-is-bright t)
-
    `(ansi-color-names-vector
      [,color-dark   ; black
       ,color-red    ; red
@@ -594,7 +592,7 @@ You'll have to see it for yourself. --Morpheus")
    `(tuareg-font-lock-interactive-output-face ((t (:foreground ,color-bright))))
    `(tuareg-font-lock-interactive-error-face ((t (:inherit font-lock-warning-face))))
    `(tuareg-font-lock-interactive-directive-face ((t (:foreground ,color-middle))))
-   `(tuareg-font-lock-line-number-face ((t (:inherit linum))))
+   `(tuareg-font-lock-line-number-face ((t (:inherit line-number))))
    `(tuareg-font-lock-module-face ((t (:inherit shadow))))
    `(tuareg-font-lock-operator-face ((t (:inherit font-lock-operator-face))))
 
