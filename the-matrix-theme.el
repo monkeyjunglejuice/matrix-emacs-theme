@@ -84,6 +84,7 @@ You'll have to see it for yourself. --Morpheus")
    `(vertical-border ((t (:foreground ,color-dark :background unspecified))))
    `(warning ((t (:foreground ,color-blue))))
    `(widget-field ((t (:foreground ,color-bright :background ,color-bg-alt))))
+   `(widget-inactive ((t (:inherit shadow :background ,color-darker :box (:color ,color-darker)))))
 
    ;; font-lock
    `(font-lock-builtin-face ((t (:foreground ,color-fg :slant italic))))
