@@ -104,7 +104,7 @@ You'll have to see it for yourself. --Morpheus")
 
    ;; font-lock
    `(font-lock-builtin-face ((t (:foreground ,color-fg :slant italic))))
-   `(font-lock-constant-face ((t (:foreground ,color-fg))))
+   `(font-lock-constant-face ((t (:weight bold))))
    `(font-lock-function-name-face ((t (:foreground ,color-middle))))
    `(font-lock-keyword-face ((t (:foreground ,color-bright))))
    `(font-lock-operator-face ((t (:foreground ,color-middle :weight bold))))
