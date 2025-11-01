@@ -308,7 +308,7 @@ You'll have to see it for yourself. --Morpheus")
    `(nerd-icons-lsilver ((t (:foreground ,color-bright))))
    ;; Face for dsilver icons
    `(nerd-icons-dsilver ((t (:foreground ,color-bright))))
-   
+
    ;; erc
    `(erc-notice-face ((t (:foreground ,color-dark :weight unspecified))))
    `(erc-header-line ((t (:inherit header-line))))
