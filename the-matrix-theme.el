@@ -221,6 +221,76 @@ You'll have to see it for yourself. --Morpheus")
    `(message-mml ((t (:foreground ,color-bright))))
    `(message-separator ((t (:inherit font-lock-comment-face))))
 
+   ;; nerd icons
+   ;; Face for red icons
+   `(nerd-icons-red ((t (:foreground ,color-bright))))
+   ;; Face for lred icons
+   `(nerd-icons-lred ((t (:foreground ,color-bright))))
+   ;; Face for dred icons
+   `(nerd-icons-dred ((t (:foreground ,color-bright))))
+   ;; Face for dred icons
+   `(nerd-icons-red-alt ((t (:foreground ,color-bright))))
+   ;; Face for green icons
+   `(nerd-icons-green ((t (:foreground ,color-bright))))
+   ;; Face for lgreen icons
+   `(nerd-icons-lgreen ((t (:foreground ,color-bright))))
+   ;; Face for dgreen icons
+   `(nerd-icons-dgreen ((t (:foreground ,color-bright))))
+   ;; Face for yellow icons
+   `(nerd-icons-yellow ((t (:foreground ,color-bright))))
+   ;; Face for lyellow icons
+   `(nerd-icons-lyellow ((t (:foreground ,color-bright))))
+   ;; Face for dyellow icons
+   `(nerd-icons-dyellow ((t (:foreground ,color-bright))))
+   ;; Face for blue icons
+   `(nerd-icons-blue ((t (:foreground ,color-bright))))
+   ;; Face for blue icons
+   `(nerd-icons-blue-alt ((t (:foreground ,color-bright))))
+   ;; Face for lblue icons
+   `(nerd-icons-lblue ((t (:foreground ,color-bright))))
+   ;; Face for dblue icons
+   `(nerd-icons-dblue ((t (:foreground ,color-bright))))
+   ;; Face for maroon icons
+   `(nerd-icons-maroon ((t (:foreground ,color-bright))))
+   ;; Face for lmaroon icons
+   `(nerd-icons-lmaroon ((t (:foreground ,color-bright))))
+   ;; Face for dmaroon icons
+   `(nerd-icons-dmaroon ((t (:foreground ,color-bright))))
+   ;; Face for purple icons
+   `(nerd-icons-purple ((t (:foreground ,color-bright))))
+   ;; Face for purple icons
+   `(nerd-icons-purple-alt ((t (:foreground ,color-bright))))
+   ;; Face for lpurple icons
+   `(nerd-icons-lpurple ((t (:foreground ,color-bright))))
+   ;; Face for dpurple icons
+   `(nerd-icons-dpurple ((t (:foreground ,color-bright))))
+   ;; Face for orange icons
+   `(nerd-icons-orange ((t (:foreground ,color-bright))))
+   ;; Face for lorange icons
+   `(nerd-icons-lorange ((t (:foreground ,color-bright))))
+   ;; Face for dorange icons
+   `(nerd-icons-dorange ((t (:foreground ,color-bright))))
+   ;; Face for cyan icons
+   `(nerd-icons-cyan ((t (:foreground ,color-bright))))
+   ;; Face for cyan icons
+   `(nerd-icons-cyan-alt ((t (:foreground ,color-bright))))
+   ;; Face for lcyan icons
+   `(nerd-icons-lcyan ((t (:foreground ,color-bright))))
+   ;; Face for dcyan icons
+   `(nerd-icons-dcyan ((t (:foreground ,color-bright))))
+   ;; Face for pink icons
+   `(nerd-icons-pink ((t (:foreground ,color-bright))))
+   ;; Face for lpink icons
+   `(nerd-icons-lpink ((t (:foreground ,color-bright))))
+   ;; Face for dpink icons
+   `(nerd-icons-dpink ((t (:foreground ,color-bright))))
+   ;; Face for silver icons
+   `(nerd-icons-silver ((t (:foreground ,color-bright))))
+   ;; Face for lsilver icons
+   `(nerd-icons-lsilver ((t (:foreground ,color-bright))))
+   ;; Face for dsilver icons
+   `(nerd-icons-dsilver ((t (:foreground ,color-bright))))
+   
    ;; erc
    `(erc-notice-face ((t (:foreground ,color-dark :weight unspecified))))
    `(erc-header-line ((t (:inherit header-line))))
