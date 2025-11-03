@@ -322,16 +322,16 @@ You'll have to see it for yourself. --Morpheus")
 
    ;; tabs
    `(tab-bar ((t (:foreground ,color-darker :background ,color-bg-alt :box (:color ,color-bg-alt)))))
-   `(tab-bar-tab ((t (:inherit tab-bar :foreground ,color-dark :background ,color-bg-alt))))
+   `(tab-bar-tab ((t (:foreground ,color-dark :background ,color-bg-alt))))
    `(tab-bar-tab-group-current ((t (:foreground ,color-fg))))
    `(tab-bar-tab-group-inactive ((t (:foreground ,color-dark))))
-   `(tab-bar-tab-inactive ((t (:inherit tab-bar :foreground ,color-darker :background ,color-bg-alt))))
+   `(tab-bar-tab-inactive ((t (:foreground ,color-darker :background ,color-bg-alt))))
    `(tab-line ((t (:foreground ,color-dark :background ,color-bg-alt :box (:color ,color-bg-alt)))))
    `(tab-line-close-highlight ((t (:foreground ,color-hl))))
    `(tab-line-highlight ((t (:foreground ,color-hl))))
-   `(tab-line-tab ((t (:inherit tab-line :foreground ,color-dark :background ,color-darkest))))
-   `(tab-line-tab-current ((t (:inherit tab-line :foreground ,color-fg))))
-   `(tab-line-tab-inactive ((t (:inherit tab-line :foreground ,color-darker :background ,color-bg))))
+   `(tab-line-tab ((t (:foreground ,color-dark :background ,color-darkest))))
+   `(tab-line-tab-current ((t (:foreground ,color-fg))))
+   `(tab-line-tab-inactive ((t (:foreground ,color-darker :background ,color-bg))))
    `(tab-line-tab-inactive-alternate ((t (:inherit tab-line-tab-inactive))))
 
    ;; tex
