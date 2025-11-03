@@ -713,7 +713,7 @@ You'll have to see it for yourself. --Morpheus")
 
    ;; switch-window
    `(switch-window-background ((t (:foreground ,color-darker))))
-   `(switch-window-label ((t (:foreground ,color-bright :height 3.0))))
+   `(switch-window-label ((t (:foreground ,color-bright :height 1.5))))
 
    ;; telega
    `(telega-msg-heading ((t (:foreground ,color-dark :background unspecified :inherit unspecified))))
