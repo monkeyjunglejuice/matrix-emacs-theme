@@ -321,18 +321,22 @@ You'll have to see it for yourself. --Morpheus")
    `(table-cell ((t (:foreground ,color-fg :background ,color-bg-alt))))
 
    ;; tabs
-   `(tab-bar ((t (:foreground ,color-darker :background ,color-bg-alt :box (:color ,color-bg-alt)))))
-   `(tab-bar-tab ((t (:foreground ,color-dark :background ,color-bg-alt))))
+   `(tab-bar ((t (:foreground ,color-dark :background ,color-bg-alt :box (:color ,color-bg-alt)))))
+   `(tab-bar-tab ((t (:foreground ,color-fg))))
+   `(tab-bar-tab-ungrouped ((t (:inherit tab-bar-tab))))
    `(tab-bar-tab-group-current ((t (:foreground ,color-fg))))
    `(tab-bar-tab-group-inactive ((t (:foreground ,color-dark))))
-   `(tab-bar-tab-inactive ((t (:foreground ,color-darker :background ,color-bg-alt))))
+   `(tab-bar-tab-inactive ((t (:foreground ,color-dark))))
    `(tab-line ((t (:foreground ,color-dark :background ,color-bg-alt :box (:color ,color-bg-alt)))))
    `(tab-line-close-highlight ((t (:foreground ,color-hl))))
    `(tab-line-highlight ((t (:foreground ,color-hl))))
-   `(tab-line-tab ((t (:foreground ,color-dark :background ,color-darkest))))
+   `(tab-line-tab ((t (:foreground ,color-dark))))
    `(tab-line-tab-current ((t (:foreground ,color-fg))))
-   `(tab-line-tab-inactive ((t (:foreground ,color-darker :background ,color-bg))))
+   `(tab-line-tab-inactive ((t (:foreground ,color-darker))))
    `(tab-line-tab-inactive-alternate ((t (:inherit tab-line-tab-inactive))))
+
+   ;; activities
+   `(activities-tabs ((t (:weight bold))))
 
    ;; tex
    `(font-latex-sedate-face ((t (:foreground ,color-dark))))
