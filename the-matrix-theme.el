@@ -490,6 +490,7 @@ You'll have to see it for yourself. --Morpheus")
    `(corfu-default ((t (:background ,color-darkest))))
    `(corfu-deprecated ((t (:strike-through t :inherit shadow))))
    `(corfu-popupinfo ((t (:background ,color-darkest))))
+   `(corfu-indexed ((t (:height 0.75 :inherit ,font-lock-comment-face))))
 
    ;; flymake
    `(flymake-error ((t (:underline (:color ,color-red :style wave)))))
